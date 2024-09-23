@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/b7f48f17-243e-4b07-814e-29baee12aaf2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 201eba18-76cd-493d-94d3-4126bc7c0436
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 201eba18-76cd-493d-94d3-4126bc7c0436
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6416cd42-3aa0-4637-9924-e24bbed9a3b0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/52d5f229-5596-47a6-89ad-5337d74ac362>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6416cd42-3aa0-4637-9924-e24bbed9a3b0>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    BrandLower: false
+    femaleMaterials: false
+    femaleMeshes: false
+    isMale: false
+    leftButton: false
+    maleMaterials: false
+    maleMeshes: false
+    meshObject: false
+    rightButton: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - meshes: !<reference.RenderMesh[]>
+        []
+      meshObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      materials: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      isMale: false
+      maleMeshes: !<reference.RenderMesh[]>
+        []
+      femaleMeshes: !<reference.RenderMesh[]>
+        []
+      maleMaterials: !<reference.Material[]>
+        []
+      femaleMaterials: !<reference.Material[]>
+        []
+      leftButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rightButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      BrandLower: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

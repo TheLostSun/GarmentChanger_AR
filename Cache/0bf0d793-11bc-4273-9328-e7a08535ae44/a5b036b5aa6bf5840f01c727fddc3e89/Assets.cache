@@ -1,0 +1,12 @@
+- !<AssetCache/a5b036b5-aa6b-f584-0f01-c727fddc3e89>
+  AssetFiles:
+    ce7a62f4-0d17-40ed-a10b-7f5c1238cc98: 0bf0d793-11bc-4273-9328-e7a08535ae44/a5b036b5aa6bf5840f01c727fddc3e89/Data/guide_neck.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/ce7a62f4-0d17-40ed-a10b-7f5c1238cc98>
+      PackagePath: ""
+  SourceHash: a5b036b5aa6bf5840f01c727fddc3e89
+  FileHash: 07df6dbb14d2e0aeeeb066c00a36ce1e
+  NativePackageItems:
+    []

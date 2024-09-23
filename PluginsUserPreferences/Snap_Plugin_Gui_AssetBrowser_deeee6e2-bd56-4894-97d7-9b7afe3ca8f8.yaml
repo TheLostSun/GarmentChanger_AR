@@ -1,0 +1,14 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 8
+    values:
+      - Custom_Circular_Carousel
+      - Custom_Circular_Carousel/.hidden
+      - Custom_Circular_Carousel/Custom Carousel/Textures
+      - DownloadedAssets
+      - Lower Cloths
+      - Upper Cloths/Upper 12.bodyMesh
+      - Upper Cloths/Upper 13.bodyMesh
+      - Upper Cloths/Upper 14.bodyMesh
+  options: 4

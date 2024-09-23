@@ -1,0 +1,18 @@
+- !<BodyMesh/18f25909-de8b-4e7c-81a3-3f1dd4aa5345>
+  PackagePath: ""
+  BodyIndex: 0
+  BodyGeometryEnabled: true
+  LeftHandGeometryEnabled: true
+  RightHandGeometryEnabled: true
+  HeadGeometryEnabled: true
+  ExternalMesh: !<reference> b2b4a63a-c4d3-457d-921b-c5c290b5a1fd
+  ExternalMeshPose: APose
+  ExternalMeshMatchingMode: Proximity
+  ExternalMeshMaxDistance: 0.500000
+  ExternalMeshMaxCount: 3
+  ExternalMeshTransform:
+    position: {x: 0.000000, y: 0.000000, z: -2.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  ExternalMeshMapUV: Texcoord0

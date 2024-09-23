@@ -1,0 +1,3075 @@
+- !<AssetCache/44029f37-4613-f98f-180a-0bffc0641ff4>
+  AssetFiles:
+    10b383e7-c68f-43b5-aa6a-271827a16675: ca001bc0-0ec0-40cb-8ac4-e7652727074c/44029f374613f98f180a0bffc0641ff4/Data/Meshes/Mark_Spencer.mesh
+    2f849f2e-71c9-4e77-a545-7e618e3010c6: ca001bc0-0ec0-40cb-8ac4-e7652727074c/44029f374613f98f180a0bffc0641ff4/Data/.hidden/Marks & Spencer_1001.ss_graph
+    6eca66c4-1767-49f0-8afc-4e3d91f9961b: ca001bc0-0ec0-40cb-8ac4-e7652727074c/44029f374613f98f180a0bffc0641ff4/Data/.hidden/white.jpg
+  AssetCurrentFiles:
+    6eca66c4-1767-49f0-8afc-4e3d91f9961b: ca001bc0-0ec0-40cb-8ac4-e7652727074c/44029f374613f98f180a0bffc0641ff4/Data/.hidden/Performance/Medium/white.pvr
+  Assets:
+    - !<ObjectPrefab/e57537e0-b6a9-41ae-a427-e80d3333b766>
+      PackagePath: ""
+      objects:
+        - !<own> 33938fe9-fefb-4ad6-b84c-9375f69fe58f
+      LazyLoading: false
+      RetainAssets: true
+    - !<AnimationAsset/1a28126c-c4c5-4473-be2c-cd7ffca20c35>
+      PackagePath: BaseLayer
+      AnimationPropertiesLayers:
+        {}
+    - !<FileMesh/10b383e7-c68f-43b5-aa6a-271827a16675>
+      PackagePath: Meshes/Mark_Spencer
+    - !<Material/911b0273-2345-4f90-bb0e-86e8ae5a7d53>
+      PackagePath: Materials/Marks & Spencer_1001
+      PassesInfo:
+        - !<own> 4ea8ce55-cfe7-4f01-8087-55dba552ab8f
+    - !<ShaderGraphPass/2f849f2e-71c9-4e77-a545-7e618e3010c6>
+      PackagePath: .hidden/Marks & Spencer_1001
+      DefaultDefines:
+        - NODE_38_DROPLIST_ITEM 0
+        - NODE_27_DROPLIST_ITEM 0
+        - NODE_69_DROPLIST_ITEM 0
+        - NODE_181_DROPLIST_ITEM 0
+        - NODE_184_DROPLIST_ITEM 0
+        - NODE_76_DROPLIST_ITEM 0
+        - NODE_228_DROPLIST_ITEM 0
+        - NODE_315_DROPLIST_ITEM 0
+        - NODE_221_DROPLIST_ITEM 0
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_49_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/5fde1343-ae28-44d7-8c47-da8386c29c44>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Vertex Color
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the purpose for which vertex color will be used. Requires vertex color to be supplied by the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: None
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Base Color
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Emissive
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: AO
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. 
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEX
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_OPACITY_TEX
+              
+              Normally, the Base Texture's alpha is taken as opacity. Enabling this allows you to define a separate greyscale opacity texture. 
+              The 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. 
+              'Opacity Texture' is only available if 'Blend Mode' is not 'Disabled'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor
+            mType: Define
+            mName: ENABLE_RECOLOR
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RECOLOR
+              
+              Recolor replaces colors in the base texture. 
+              This is useful for adding variety to assets, ex: recolor a red shirt with a green logo to a blue shirt with a black logo, or any other color combination. 
+              Where the base texture is red, you will get whatever color you set in Recolor Red, and same thing for the green and blue channels of the base texture. 
+              This also works in combination if the base color is not a pure red, green or blue color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Red
+            mType: Property
+            mName: recolorRed
+            mWidget: color
+            mHint: "Property: recolorRed"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Green
+            mType: Property
+            mName: recolorGreen
+            mWidget: color
+            mHint: "Property: recolorGreen"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Blue
+            mType: Property
+            mName: recolorBlue
+            mWidget: color
+            mHint: "Property: recolorBlue"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_RECOLOR
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: ENABLE_NORMALMAP
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMALMAP
+              
+              Enables the normal map texture and normal mapping. 
+              When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Detail Normal
+            mType: Define
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_DETAIL_NORMAL
+              
+              Detail normal mapping perturbs the base normal map by a detail normal map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailNormalTex
+            mWidget: texture_group
+            mHint: "Property: detailNormalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMALMAP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive
+            mType: Define
+            mName: ENABLE_EMISSIVE
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE
+              
+              Enables the emissive texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: emissiveTex
+            mWidget: texture_group
+            mHint: "Property: emissiveTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Color
+            mType: Property
+            mName: emissiveColor
+            mWidget: color
+            mHint: |-
+              Property: emissiveColor
+              
+              Multiplies the existing emissive color. 
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: emissiveIntensity
+            mWidget: slider
+            mHint: |-
+              Property: emissiveIntensity
+              
+              Multiplies the existing emissive color. 
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Simple Reflection
+            mType: Define
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SIMPLE_REFLECTION
+              
+              Replaces the default PBR environment mapping with a simple lookup from a regular texture (no hdr, no roughness, no fresnel, etc.). 
+              It can even be used with unlit materials. The reflection lookup technically assumes a spherical environment map, which is a circular 
+              shaped texture as obtained by photographing a mirror ball. However, as a shortcut, it is sometimes used with simple, flat photos, and 
+              manually bent mesh normals. Note: this spherical mapping is technically different from the 'angular' envmap format that looks similar.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionTex
+            mWidget: texture_group
+            mHint: "Property: reflectionTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: reflectionIntensity
+            mWidget: slider
+            mHint: "Property: reflectionIntensity"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Modulation Map
+            mType: Define
+            mName: Tweak_N177
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N177
+              
+              This texture modulates the reflection color. It can be RGB or greyscale.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionModulationTex
+            mWidget: texture_group
+            mHint: "Property: reflectionModulationTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N177
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Highlight
+            mType: Define
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RIM_HIGHLIGHT
+              
+              'Rim highlight', aka. 'fake Fresnel effect'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: rimColor
+            mWidget: color
+            mHint: |-
+              Property: rimColor
+              
+              Specifies the color of the rim highlight.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: rimIntensity
+            mWidget: slider
+            mHint: |-
+              Property: rimIntensity
+              
+              Multiplied with 'Rim Color'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: rimExponent
+            mWidget: slider
+            mHint: |-
+              Property: rimExponent
+              
+              Controls the tightness of the rim highlight.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Invert
+            mType: Define
+            mName: ENABLE_RIM_INVERT
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_RIM_INVERT
+              
+              Inverts the effect so it's brighter in the middle of the object and darker at the edge.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Color Texture
+            mType: Define
+            mName: Tweak_N216
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N216
+              
+              Allows the use of a texture to modulate the rim highlight color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: rimColorTex
+            mWidget: texture_group
+            mHint: "Property: rimColorTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N216
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lighting
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: |-
+              Property: metallic
+              
+              1 means metal, 0 means non-metal (dielectric). Multiplies the metallic channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: |-
+              Property: roughness
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny. 
+              Multiplies the roughness channel of the Material Params texture if enabled. 
+              If your roughness is 1 and your metallic is 0, it's more efficient to disable Specular alltogether.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: materialParamsTex
+            mWidget: texture_group
+            mHint: |-
+              Property: materialParamsTex
+              
+              Material params texture should have: R - metalness, G - roughness, B - ambient occlusion.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Specular AO
+            mType: Define
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SPECULAR_AO
+              
+              Allow AO to influence indirect specular lighting (reflections).
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: specularAoIntensity
+            mWidget: slider
+            mHint: |-
+              Property: specularAoIntensity
+              
+              Specifies the amount of influence AO has on reflections. 
+              For metals the specular AO at its darkest approaches a saturated/darkened version of the metal color (ex: dark gold for gold). 
+              For non-metals, this is essentially the same as 'Darkeing'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Darkening
+            mType: Property
+            mName: specularAoDarkening
+            mWidget: slider
+            mHint: |-
+              Property: specularAoDarkening
+              
+              For metals, this shifts the darkest AO color from a saturated version of the metal color towards pure black. 
+              For non-metals it's essentially equivalent to 'Intensity'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 2
+            mType: Define
+            mName: ENABLE_UV2
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_UV2
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv2Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv2Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv2EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv2EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_UV2
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 3
+            mType: Define
+            mName: ENABLE_UV3
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_UV3
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv3Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv3Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv3EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv3EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_UV3
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: ca001bc0-0ec0-40cb-8ac4-e7652727074c/44029f374613f98f180a0bffc0641ff4/Data/.hidden/Marks & Spencer_1001.glsl
+      Defines:
+        []
+      Properties:
+        {}
+    - !<FileTexture/6eca66c4-1767-49f0-8afc-4e3d91f9961b>
+      PackagePath: .hidden/white
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 10
+        Height: 10
+  SourceHash: 44029f374613f98f180a0bffc0641ff4
+  FileHash: 01164401f6fffe127c3f6a02e6fc7d61
+  NativePackageItems:
+    []
+- !<SceneObject/01053806-4db4-4f36-952d-01c9ac3849a5>
+  PrefabRemaps:
+    []
+  Name: Character1_RightLeg
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000010, y: 45.648853, z: -0.000150}
+    rotation: {x: 0.496117, y: 0.083904, z: 2.076232}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ab9b4320-6838-4303-968c-7ed13b9e4c2d
+  Components:
+    []
+- !<SceneObject/08171b4a-20b7-4ad2-b9ed-627b5b436c2f>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandThumb1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.075834, y: 3.492731, z: 0.734209}
+    rotation: {x: 28.774195, y: 25.675034, z: 50.708557}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 92993447-b8e9-4ad4-95b3-ffcb2ce10e09
+  Components:
+    []
+- !<SceneObject/0b854fe3-5a1d-45a6-b759-e2ab3bff5346>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftToe_End_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000001, y: 5.847913, z: 0.000000}
+    rotation: {x: -0.000000, y: 0.000033, z: 0.000052}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9bc16241-e741-4727-9bcb-60bae1c3f31a
+  Components:
+    []
+- !<SceneObject/0c67ba0e-4790-4006-85df-7757c025300d>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandMiddle1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.119301, y: 11.428274, z: 0.051300}
+    rotation: {x: 1.387375, y: -1.904596, z: -2.185861}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f4b1fc62-62ea-4afb-b09d-8178425640a5
+  Components:
+    []
+- !<SceneObject/0cd61d96-c40e-48fb-956d-29318894c85c>
+  PrefabRemaps:
+    []
+  Name: Body_Mesh_With_Skeleton_A_Pose
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 21a40c23-2b2c-4f5c-b496-715d10976f28
+  Components:
+    []
+- !<SceneObject/1b5be5fb-09ac-4145-b29c-76e7d3ac07f8>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftFoot
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000011, y: 43.032383, z: -0.000155}
+    rotation: {x: 59.460293, y: -0.369234, z: -2.783091}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6e8da218-ec2e-4068-af2f-a2879ac1fe4b
+  Components:
+    []
+- !<SceneObject/1b8671a1-6e1e-4cad-b45c-758f8b6d5100>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandRing2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.002684, y: 3.534421, z: 0.000352}
+    rotation: {x: 1.231648, y: 0.017637, z: 0.128202}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f39244ba-96ae-4d04-b3f9-a61561b40cab
+  Components:
+    []
+- !<SceneObject/1cce661b-c394-4b20-8bfd-a4714b70c5f3>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandIndex4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000962, y: 2.580096, z: -0.000396}
+    rotation: {x: -38.653549, y: 8.839795, z: -120.372261}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a4b160f3-74dd-4780-9f24-cf50f50578d9
+  Components:
+    []
+- !<SceneObject/1ecbdaaf-f2ac-49d7-9334-71cf277fa0c3>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandIndex4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.009095, y: 2.837102, z: 0.000990}
+    rotation: {x: 73.295769, y: -73.457428, z: 36.334846}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c511bccc-79b8-4680-a84d-492f0491e75b
+  Components:
+    []
+- !<SceneObject/21916037-b1bc-4fe0-acad-b7ec05b240b0>
+  PrefabRemaps:
+    []
+  Name: Mark_Spencer
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 606f85c1-f85d-44ec-b375-0ec0c3260181
+- !<SceneObject/21a40c23-2b2c-4f5c-b496-715d10976f28>
+  PrefabRemaps:
+    []
+  Name: Character1_Hips
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 102.272270, z: 4.166985}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e14abb53-c526-460a-9578-65d9d134471f
+    - !<own> c7256cce-40b8-4a75-b58c-2c3bb60749f0
+    - !<own> be414b5c-2793-4e0b-bc25-d68261f66087
+  Components:
+    []
+- !<SceneObject/2eb3fdae-f91f-4605-9716-b2b685a6421c>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHand
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.069781, y: 21.311588, z: -0.017245}
+    rotation: {x: 3.569145, y: 2.103489, z: 6.178679}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5a1757df-0141-4405-9848-5593f16aceb3
+    - !<own> 5b47748f-e0ce-44d6-b155-d17bb87b0c2c
+    - !<own> 0c67ba0e-4790-4006-85df-7757c025300d
+    - !<own> f105e179-99c6-48b1-824c-05c4d7fc6256
+    - !<own> e1cb20bc-8f50-4728-a64a-36a360e72af5
+  Components:
+    []
+- !<SceneObject/32ba281a-5d59-4cf7-b7cb-6245fe4a2f35>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandRing4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.001437, y: 2.703692, z: -0.000081}
+    rotation: {x: -86.484840, y: 51.229477, z: -18.048641}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 88ea4220-75f7-40ff-a341-c775c78bdee0
+  Components:
+    []
+- !<SceneObject/33938fe9-fefb-4ad6-b84c-9375f69fe58f>
+  PrefabRemaps:
+    []
+  Name: MarkSpencer
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0cd61d96-c40e-48fb-956d-29318894c85c
+    - !<own> 21916037-b1bc-4fe0-acad-b7ec05b240b0
+  Components:
+    - !<own> f5b77a88-213f-4a2b-8b6f-6aa67f06566d
+    - !<own> dc9ac17b-1579-4a9a-aad0-13833ff73074
+- !<SceneObject/41ed5921-43bc-4022-b55e-ae8e37f309a6>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandThumb4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.602454, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/44ca1664-4b0b-4c76-97a1-d85f481539fb>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandThumb3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.040364, y: 3.937912, z: 0.014627}
+    rotation: {x: 2.100448, y: -0.540904, z: 0.738860}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d87684d1-e458-43bd-b21e-c345e29be6c1
+  Components:
+    []
+- !<SceneObject/453ddf59-6075-49d5-b334-8ff7e03fd291>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandMiddle4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000006, y: 3.195761, z: 0.000000}
+    rotation: {x: 0.000067, y: -0.000017, z: 0.000138}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> abacf4c5-0b86-447b-90be-9527e1a91c12
+  Components:
+    []
+- !<SceneObject/453e03a9-7f52-4f0c-a3a2-bc9544d080c1>
+  PrefabRemaps:
+    []
+  Name: Character1_RightForeArm
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000085, y: 24.844484, z: -0.000045}
+    rotation: {x: -4.836690, y: -2.401523, z: -3.275854}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2eb3fdae-f91f-4605-9716-b2b685a6421c
+  Components:
+    []
+- !<SceneObject/4916b902-5bc8-4810-be38-861d02df2fcd>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftToe_End
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000006, y: 5.847888, z: -0.000007}
+    rotation: {x: 87.161148, y: -17.066494, z: -172.190796}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0b854fe3-5a1d-45a6-b759-e2ab3bff5346
+  Components:
+    []
+- !<SceneObject/4af85591-5c40-4771-a3d0-2d2e914ecc13>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandIndex3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.008360, y: 3.222920, z: 0.000754}
+    rotation: {x: -0.655689, y: -0.012987, z: -0.068986}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1ecbdaaf-f2ac-49d7-9334-71cf277fa0c3
+  Components:
+    []
+- !<SceneObject/4db4771a-bc6d-4ae9-823d-48b7c7908904>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandPinky2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.013197, y: 3.247768, z: 0.001656}
+    rotation: {x: 4.234043, y: -0.084398, z: -0.578231}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fe235946-193e-401d-8488-b666c3767c94
+  Components:
+    []
+- !<PassInfo/4ea8ce55-cfe7-4f01-8087-55dba552ab8f>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_DIRECT_LIGHTS
+    - ENABLE_ENVIRONMENT_MAP
+    - ENABLE_LIGHTING
+    - ENABLE_SPECULAR_LIGHTING
+    - ENABLE_TONE_MAPPING
+    - ENABLE_VERTEX_COLOR_NONE
+    - baseTexUV 0
+    - emissiveTexUV 0
+    - materialParamsTexUV 0
+    - normalTexUV 0
+    - opacityTexUV 0
+    - rimColorTexUV 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: 6eca66c4-1767-49f0-8afc-4e3d91f9961b
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    roughness:
+      typeIdx: 1
+      value: 1.000000
+  Pass: !<reference> 2f849f2e-71c9-4e77-a545-7e618e3010c6
+- !<SceneObject/4ebcf2d2-0735-4357-84b4-47fd4cd966aa>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandMiddle4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.166688, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/54974201-13f9-4b45-9ee8-b421dce8b801>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandIndex4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.837141, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/57c4fc01-4d4a-4978-be50-0c8d57f9b61f>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandIndex3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.008513, y: 3.274792, z: 0.001206}
+    rotation: {x: 2.923191, y: -0.034849, z: -0.357939}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1cce661b-c394-4b20-8bfd-a4714b70c5f3
+  Components:
+    []
+- !<SceneObject/58f91db3-b67f-45da-abf2-5453d4052fc4>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftForeArm
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000068, y: 24.844969, z: 0.000174}
+    rotation: {x: -4.908838, y: 2.155159, z: 2.998656}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a125b206-22e9-45f4-9d56-aeac3f47e1e6
+  Components:
+    []
+- !<SceneObject/59a1c3c6-ab56-482a-a71a-8fe2faba4486>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandIndex4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.580091, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/59d0b182-c39c-4907-8f22-03a6efdea662>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandPinky4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.008134, y: 2.218175, z: 0.000726}
+    rotation: {x: -20.202862, y: 19.276224, z: -112.721558}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f5ea2b2e-63e2-489a-a2e4-e0206a60c7ff
+  Components:
+    []
+- !<SceneObject/5a1757df-0141-4405-9848-5593f16aceb3>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandThumb1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.397722, y: 2.932063, z: 0.457024}
+    rotation: {x: 28.292599, y: -25.783846, z: -50.416576}
+    scale: {x: 1.000000, y: 1.000000, z: 0.999999}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 71a0768f-f7a1-4d3e-a9ee-30325b27c85d
+  Components:
+    []
+- !<SceneObject/5b47748f-e0ce-44d6-b155-d17bb87b0c2c>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandIndex1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 3.534338, y: 11.235991, z: 0.463730}
+    rotation: {x: 4.304472, y: -1.825431, z: -1.777207}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e0c5e1ff-6a16-4db3-a5fa-b65b36d65fa1
+  Components:
+    []
+- !<RenderMeshVisual/606f85c1-f85d-44ec-b375-0ec0c3260181>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 911b0273-2345-4f90-bb0e-86e8ae5a7d53
+  Mesh: !<reference> 10b383e7-c68f-43b5-aa6a-271827a16675
+  Skin: !<reference> f5b77a88-213f-4a2b-8b6f-6aa67f06566d
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/61e5c9ff-7628-4982-9dc9-1862abef9f75>
+  PrefabRemaps:
+    []
+  Name: Character1_Head
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 7.300017, z: 1.900025}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bb727a7c-5df0-4875-b7a2-d4fdb0ca20ce
+  Components:
+    []
+- !<SceneObject/62159d2f-16de-47af-9b86-e58511b9cdde>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandThumb4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.115222, y: 3.547708, z: 0.041588}
+    rotation: {x: 85.517113, y: -29.753571, z: 69.997917}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cbdf3986-93e3-4107-a994-2410822327ab
+  Components:
+    []
+- !<SceneObject/6b89ced4-dde3-4aed-8b5e-800061b8830c>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandThumb3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.051756, y: 3.957034, z: -0.018185}
+    rotation: {x: -2.475898, y: -0.585724, z: 0.891334}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 62159d2f-16de-47af-9b86-e58511b9cdde
+  Components:
+    []
+- !<SceneObject/6e8da218-ec2e-4068-af2f-a2879ac1fe4b>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftToeBase
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.004255, y: 13.417042, z: -0.925226}
+    rotation: {x: 32.918217, y: -8.263692, z: -5.414707}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4916b902-5bc8-4810-be38-861d02df2fcd
+  Components:
+    []
+- !<SceneObject/71a0768f-f7a1-4d3e-a9ee-30325b27c85d>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandThumb2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.062708, y: 3.518880, z: -0.025305}
+    rotation: {x: 13.056754, y: 3.286262, z: -4.612856}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6b89ced4-dde3-4aed-8b5e-800061b8830c
+  Components:
+    []
+- !<SceneObject/722c765e-f4b3-4556-80e8-27ecaf45c440>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandIndex1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.543679, y: 11.359096, z: 0.529970}
+    rotation: {x: 1.767950, y: 0.765993, z: 0.728222}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f1405de3-7cf5-4ce8-837d-3d64ceb87397
+  Components:
+    []
+- !<SceneObject/73609b0f-96a6-4856-8d7e-b158587441e8>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandRing4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000006, y: 2.744047, z: -0.000009}
+    rotation: {x: 0.000098, y: -0.000087, z: 0.000266}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a69e6293-d950-4c92-aadb-0d57339e8786
+  Components:
+    []
+- !<SceneObject/80c102e3-8f5f-4d47-8d67-66a7c44183de>
+  PrefabRemaps:
+    []
+  Name: Character1_Spine1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 11.400247, z: 0.000054}
+    rotation: {x: -0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ecff6841-5301-4902-bde6-50c35de99158
+  Components:
+    []
+- !<SceneObject/833fe13c-4a11-42ec-b227-bc045ec9d589>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandPinky4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.060683, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/83d80dd3-fedf-4528-8bef-b0966c898daf>
+  PrefabRemaps:
+    []
+  Name: Character1_RightShoulder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -6.493481, y: 12.895182, z: -0.223409}
+    rotation: {x: -74.721298, y: -88.045357, z: 179.758545}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dca0fb3d-e057-4c31-a8f3-a2ddb8a05565
+  Components:
+    []
+- !<SceneObject/88ea4220-75f7-40ff-a341-c775c78bdee0>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandRing4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000006, y: 2.703720, z: -0.000003}
+    rotation: {x: -0.000087, y: 0.000026, z: 0.000264}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8cecb80c-1e3e-449c-afd3-96e33ab9742b
+  Components:
+    []
+- !<SceneObject/8a7ed666-59e2-463b-8279-7eb3948c62bd>
+  PrefabRemaps:
+    []
+  Name: Character1_HeadTop_End_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000008, y: 21.513882, z: -0.000010}
+    rotation: {x: -0.000000, y: 0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ba507575-a51b-431d-9ddf-2ac01be9c889
+  Components:
+    []
+- !<SceneObject/8cecb80c-1e3e-449c-afd3-96e33ab9742b>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandRing4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.703715, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9092b008-36e7-4000-b85a-c780fef5249f>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandMiddle4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000001, y: 3.166694, z: -0.000000}
+    rotation: {x: 0.000040, y: -0.000013, z: 0.000135}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4ebcf2d2-0735-4357-84b4-47fd4cd966aa
+  Components:
+    []
+- !<SceneObject/92993447-b8e9-4ad4-95b3-ffcb2ce10e09>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandThumb2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.101974, y: 3.531171, z: -0.041524}
+    rotation: {x: 10.999681, y: -2.681462, z: 4.011248}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44ca1664-4b0b-4c76-97a1-d85f481539fb
+  Components:
+    []
+- !<SceneObject/96b820a1-6957-412f-bdad-3f452ffb1e2f>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandThumb4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.549822, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9bc16241-e741-4727-9bcb-60bae1c3f31a>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftToe_End_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 5.847893, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9fef97bd-bc44-4144-aeeb-e4e75a394347>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandPinky2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.002782, y: 3.304379, z: -0.000230}
+    rotation: {x: 1.233822, y: 0.019360, z: 0.106816}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d6b60004-9ec1-48e2-9842-63db5b380448
+  Components:
+    []
+- !<SceneObject/a125b206-22e9-45f4-9d56-aeac3f47e1e6>
+  PrefabRemaps:
+    []
+  Name: Body_Mesh_With_Skeleton_A_Pose_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.066532, y: 21.281773, z: -0.018294}
+    rotation: {x: 3.858533, y: -1.771213, z: -5.799376}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 08171b4a-20b7-4ad2-b9ed-627b5b436c2f
+    - !<own> 722c765e-f4b3-4556-80e8-27ecaf45c440
+    - !<own> bba98ecf-371e-4435-9960-610f2ff9718c
+    - !<own> e23d5378-4300-4316-8e25-11f67f2ddb00
+    - !<own> cf0c81bf-7ad5-4b4e-8833-b6999f26eb79
+  Components:
+    []
+- !<SceneObject/a1ab603b-e24f-43fb-bb6a-203946cc6cc6>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandPinky4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000002, y: 2.060680, z: 0.000003}
+    rotation: {x: -0.000000, y: 0.000060, z: -0.000020}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 833fe13c-4a11-42ec-b227-bc045ec9d589
+  Components:
+    []
+- !<SceneObject/a426340b-6af4-4c14-b2d5-78053c6b7d6f>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandMiddle4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.010398, y: 3.166645, z: 0.001363}
+    rotation: {x: 77.555054, y: -74.153191, z: 32.480556}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9092b008-36e7-4000-b85a-c780fef5249f
+  Components:
+    []
+- !<SceneObject/a4b160f3-74dd-4780-9f24-cf50f50578d9>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandIndex4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000005, y: 2.580100, z: 0.000003}
+    rotation: {x: 0.000095, y: -0.000070, z: 0.000283}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 59a1c3c6-ab56-482a-a71a-8fe2faba4486
+  Components:
+    []
+- !<SceneObject/a69e6293-d950-4c92-aadb-0d57339e8786>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandRing4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.744033, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ab9b4320-6838-4303-968c-7ed13b9e4c2d>
+  PrefabRemaps:
+    []
+  Name: Character1_RightFoot
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000092, y: 43.035122, z: -0.000165}
+    rotation: {x: 59.811565, y: 1.862261, z: 1.974954}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ba085185-4fd6-4710-8893-b97e3e55c2fb
+  Components:
+    []
+- !<SceneObject/abacf4c5-0b86-447b-90be-9527e1a91c12>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandMiddle4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.195757, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ac043064-47df-4676-bd46-8dbbf6153af8>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandRing4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.002143, y: 2.744046, z: -0.000141}
+    rotation: {x: -37.602757, y: 10.489923, z: -122.434937}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 73609b0f-96a6-4856-8d7e-b158587441e8
+  Components:
+    []
+- !<SceneObject/b0d0b3ff-7705-4d00-b88c-2b031c148049>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandMiddle3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.002909, y: 3.650330, z: 0.000140}
+    rotation: {x: -2.661781, y: -0.059466, z: -0.275546}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a426340b-6af4-4c14-b2d5-78053c6b7d6f
+  Components:
+    []
+- !<SceneObject/b180dc41-913a-446a-bbf8-97fd37c1ba1d>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandRing3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.001985, y: 3.293419, z: -0.000179}
+    rotation: {x: 0.207425, y: -0.002734, z: -0.018806}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ac043064-47df-4676-bd46-8dbbf6153af8
+  Components:
+    []
+- !<SceneObject/b27ecd58-f568-4df0-a12e-297b8eb3c249>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandPinky4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.013990, y: 2.060620, z: -0.001884}
+    rotation: {x: 167.738647, y: -9.144104, z: 115.615623}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a1ab603b-e24f-43fb-bb6a-203946cc6cc6
+  Components:
+    []
+- !<SceneObject/ba085185-4fd6-4710-8893-b97e3e55c2fb>
+  PrefabRemaps:
+    []
+  Name: Character1_RightToeBase
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.048063, y: 13.418016, z: -0.919493}
+    rotation: {x: 32.924816, y: 8.319286, z: 5.413722}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dc4c52f9-eb21-4d0e-bf9c-0cd66b8caefe
+  Components:
+    []
+- !<SceneObject/ba507575-a51b-431d-9ddf-2ac01be9c889>
+  PrefabRemaps:
+    []
+  Name: Character1_HeadTop_End_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 21.513887, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/bb727a7c-5df0-4875-b7a2-d4fdb0ca20ce>
+  PrefabRemaps:
+    []
+  Name: Character1_HeadTop_End
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.131100, y: 20.820267, z: 5.417138}
+    rotation: {x: -51.605228, y: -34.604225, z: -20.874063}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8a7ed666-59e2-463b-8279-7eb3948c62bd
+  Components:
+    []
+- !<SceneObject/bba98ecf-371e-4435-9960-610f2ff9718c>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandMiddle1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.031580, y: 11.436297, z: 0.075287}
+    rotation: {x: 0.025502, y: 3.055036, z: 3.713664}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d93b5b8a-f713-4ca0-9e79-2a9544392df2
+  Components:
+    []
+- !<SceneObject/be414b5c-2793-4e0b-bc25-d68261f66087>
+  PrefabRemaps:
+    []
+  Name: Character1_RightUpLeg
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -8.397770, y: -5.370911, z: -0.429410}
+    rotation: {x: -2.406245, y: -0.508458, z: 167.870377}
+    scale: {x: 1.000001, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 01053806-4db4-4f36-952d-01c9ac3849a5
+  Components:
+    []
+- !<SceneObject/bf0e25a7-2062-4415-9c1c-292eaacc5aad>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftLeg
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000035, y: 45.651821, z: -0.000162}
+    rotation: {x: 0.689964, y: -0.117329, z: -2.075280}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b5be5fb-09ac-4145-b29c-76e7d3ac07f8
+  Components:
+    []
+- !<SceneObject/bfbc27b2-e11c-4cac-b5ef-4ab140a8eb64>
+  PrefabRemaps:
+    []
+  Name: Character1_RightToe_End_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 5.894960, z: -0.000001}
+    rotation: {x: 0.000000, y: 0.000040, z: 0.000039}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d482c516-e9bd-4b72-9376-ae67a316623f
+  Components:
+    []
+- !<SceneObject/c511bccc-79b8-4680-a84d-492f0491e75b>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandIndex4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000005, y: 2.837147, z: -0.000005}
+    rotation: {x: -0.000000, y: -0.000000, z: 0.000194}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 54974201-13f9-4b45-9ee8-b421dce8b801
+  Components:
+    []
+- !<SceneObject/c7256cce-40b8-4a75-b58c-2c3bb60749f0>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftUpLeg
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 8.397741, y: -5.370796, z: -0.439441}
+    rotation: {x: -2.459526, y: 0.519934, z: -167.871704}
+    scale: {x: 0.999998, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bf0e25a7-2062-4415-9c1c-292eaacc5aad
+  Components:
+    []
+- !<SceneObject/cbdf3986-93e3-4107-a994-2410822327ab>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandThumb4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000002, y: 3.549819, z: 0.000004}
+    rotation: {x: 0.000166, y: -0.000013, z: 0.000034}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 96b820a1-6957-412f-bdad-3f452ffb1e2f
+  Components:
+    []
+- !<SceneObject/cf0c81bf-7ad5-4b4e-8833-b6999f26eb79>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandPinky1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 3.270951, y: 11.049972, z: -0.131287}
+    rotation: {x: -8.202069, y: 0.157159, z: 0.996246}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4db4771a-bc6d-4ae9-823d-48b7c7908904
+  Components:
+    []
+- !<SceneObject/d11e4432-5cd8-428f-a866-bbea3ecd4b47>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandThumb4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000011, y: 3.602454, z: -0.000003}
+    rotation: {x: -0.000047, y: 0.000000, z: 0.000041}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 41ed5921-43bc-4022-b55e-ae8e37f309a6
+  Components:
+    []
+- !<SceneObject/d482c516-e9bd-4b72-9376-ae67a316623f>
+  PrefabRemaps:
+    []
+  Name: Character1_RightToe_End_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 5.894971, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d6b60004-9ec1-48e2-9842-63db5b380448>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandPinky3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.005348, y: 2.681911, z: -0.000553}
+    rotation: {x: -5.645496, y: -0.136176, z: -0.476998}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 59d0b182-c39c-4907-8f22-03a6efdea662
+  Components:
+    []
+- !<SceneObject/d87684d1-e458-43bd-b21e-c345e29be6c1>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandThumb4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.063386, y: 3.601802, z: 0.022283}
+    rotation: {x: 8.204720, y: 15.105580, z: -154.569092}
+    scale: {x: 1.000002, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d11e4432-5cd8-428f-a866-bbea3ecd4b47
+  Components:
+    []
+- !<SceneObject/d93b5b8a-f713-4ca0-9e79-2a9544392df2>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandMiddle2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.003700, y: 3.745699, z: -0.000165}
+    rotation: {x: -2.554721, y: 0.037136, z: 0.207942}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f054a1a3-4e9f-4c8b-a43c-fba154f7ab88
+  Components:
+    []
+- !<SceneObject/d944a637-3922-4eb6-b65f-9ceb042188f1>
+  PrefabRemaps:
+    []
+  Name: Character1_Neck
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 14.657314, z: 0.000041}
+    rotation: {x: 7.350999, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 61e5c9ff-7628-4982-9dc9-1862abef9f75
+  Components:
+    []
+- !<SceneObject/dc4c52f9-eb21-4d0e-bf9c-0cd66b8caefe>
+  PrefabRemaps:
+    []
+  Name: Character1_RightToe_End
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000036, y: 5.894955, z: -0.000091}
+    rotation: {x: 87.171257, y: 17.151369, z: 172.246414}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bfbc27b2-e11c-4cac-b5ef-4ab140a8eb64
+  Components:
+    []
+- !<AnimationPlayer/dc9ac17b-1579-4a9a-aad0-13833ff73074>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 1a28126c-c4c5-4473-be2c-cd7ffca20c35
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/dca0fb3d-e057-4c31-a8f3-a2ddb8a05565>
+  PrefabRemaps:
+    []
+  Name: Character1_RightArm
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000110, y: 13.530538, z: -0.000168}
+    rotation: {x: 34.747364, y: 1.732878, z: -0.616074}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 453e03a9-7f52-4f0c-a3a2-bc9544d080c1
+  Components:
+    []
+- !<SceneObject/dd384e53-7d33-4d47-a694-9cd79f1cc518>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftArm
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000061, y: 13.530547, z: -0.000123}
+    rotation: {x: 34.774734, y: -1.732592, z: 0.778538}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 58f91db3-b67f-45da-abf2-5453d4052fc4
+  Components:
+    []
+- !<SceneObject/df093d9f-3249-4e3f-b5dd-1eccfb24edee>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandRing2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.004077, y: 3.517667, z: 0.000389}
+    rotation: {x: 1.800402, y: -0.024141, z: -0.163140}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b180dc41-913a-446a-bbf8-97fd37c1ba1d
+  Components:
+    []
+- !<SceneObject/e0c5e1ff-6a16-4db3-a5fa-b65b36d65fa1>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandIndex2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.017421, y: 3.481443, z: -0.001639}
+    rotation: {x: -8.072349, y: -0.149131, z: -0.848838}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4af85591-5c40-4771-a3d0-2d2e914ecc13
+  Components:
+    []
+- !<SceneObject/e14abb53-c526-460a-9578-65d9d134471f>
+  PrefabRemaps:
+    []
+  Name: Character1_Spine
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 9.691208, z: -1.250127}
+    rotation: {x: -7.350512, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 80c102e3-8f5f-4d47-8d67-66a7c44183de
+  Components:
+    []
+- !<SceneObject/e1cb20bc-8f50-4728-a64a-36a360e72af5>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandPinky1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.395757, y: 10.934540, z: -0.296725}
+    rotation: {x: -3.779962, y: -2.992512, z: -3.888869}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9fef97bd-bc44-4144-aeeb-e4e75a394347
+  Components:
+    []
+- !<SceneObject/e236c7d3-2a00-420f-a75a-95c476aaac2d>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandMiddle4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.001934, y: 3.195774, z: -0.000059}
+    rotation: {x: -36.535995, y: 9.746315, z: -122.757599}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 453ddf59-6075-49d5-b334-8ff7e03fd291
+  Components:
+    []
+- !<SceneObject/e23d5378-4300-4316-8e25-11f67f2ddb00>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandRing1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1.346226, y: 11.701194, z: -0.165900}
+    rotation: {x: -3.373930, y: 2.603721, z: 3.404672}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> df093d9f-3249-4e3f-b5dd-1eccfb24edee
+  Components:
+    []
+- !<SceneObject/e8dfa2a2-2a70-4b7e-92f4-c60861b37867>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftShoulder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 6.493551, y: 12.896297, z: -0.230981}
+    rotation: {x: -74.733833, y: 87.979286, z: -179.762283}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dd384e53-7d33-4d47-a694-9cd79f1cc518
+  Components:
+    []
+- !<SceneObject/ea1904d9-5128-4a65-90ce-99dafa854dbb>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandPinky4_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.218187, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ecff6841-5301-4902-bde6-50c35de99158>
+  PrefabRemaps:
+    []
+  Name: Character1_Spine2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 13.028785, z: 0.000050}
+    rotation: {x: 0.000011, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d944a637-3922-4eb6-b65f-9ceb042188f1
+    - !<own> e8dfa2a2-2a70-4b7e-92f4-c60861b37867
+    - !<own> 83d80dd3-fedf-4528-8bef-b0966c898daf
+  Components:
+    []
+- !<SceneObject/f054a1a3-4e9f-4c8b-a43c-fba154f7ab88>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandMiddle3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.005677, y: 3.705584, z: 0.000446}
+    rotation: {x: 2.371030, y: -0.026422, z: -0.194257}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e236c7d3-2a00-420f-a75a-95c476aaac2d
+  Components:
+    []
+- !<SceneObject/f105e179-99c6-48b1-824c-05c4d7fc6256>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandRing1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.269397, y: 11.755712, z: -0.136882}
+    rotation: {x: -2.686527, y: -1.999676, z: -2.658680}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b8671a1-6e1e-4cad-b45c-758f8b6d5100
+  Components:
+    []
+- !<SceneObject/f1405de3-7cf5-4ce8-837d-3d64ceb87397>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandIndex2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.007524, y: 3.400108, z: -0.001086}
+    rotation: {x: -5.264723, y: 0.094446, z: 0.639039}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 57c4fc01-4d4a-4978-be50-0c8d57f9b61f
+  Components:
+    []
+- !<SceneObject/f39244ba-96ae-4d04-b3f9-a61561b40cab>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandRing3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.001197, y: 3.309417, z: -0.000132}
+    rotation: {x: 0.143935, y: 0.001974, z: 0.014985}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 32ba281a-5d59-4cf7-b7cb-6245fe4a2f35
+  Components:
+    []
+- !<SceneObject/f4b1fc62-62ea-4afb-b09d-8178425640a5>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandMiddle2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.013348, y: 3.861836, z: -0.001253}
+    rotation: {x: -4.510013, y: -0.078044, z: -0.470061}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b0d0b3ff-7705-4d00-b88c-2b031c148049
+  Components:
+    []
+- !<Skin/f5b77a88-213f-4a2b-8b6f-6aa67f06566d>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    MarkSpencer: !<reference> 33938fe9-fefb-4ad6-b84c-9375f69fe58f
+    Character1_RightHandMiddle4: !<reference> a426340b-6af4-4c14-b2d5-78053c6b7d6f
+    Character1_RightFoot: !<reference> ab9b4320-6838-4303-968c-7ed13b9e4c2d
+    Character1_LeftToeBase: !<reference> 6e8da218-ec2e-4068-af2f-a2879ac1fe4b
+    Character1_RightToe_End_end: !<reference> bfbc27b2-e11c-4cac-b5ef-4ab140a8eb64
+    Character1_HeadTop_End_end: !<reference> 8a7ed666-59e2-463b-8279-7eb3948c62bd
+    Character1_RightUpLeg: !<reference> be414b5c-2793-4e0b-bc25-d68261f66087
+    Mark_Spencer: !<reference> 21916037-b1bc-4fe0-acad-b7ec05b240b0
+    Character1_RightToe_End_end_end: !<reference> d482c516-e9bd-4b72-9376-ae67a316623f
+    Character1_LeftUpLeg: !<reference> c7256cce-40b8-4a75-b58c-2c3bb60749f0
+    Character1_LeftHandMiddle1: !<reference> bba98ecf-371e-4435-9960-610f2ff9718c
+    Character1_LeftToe_End_end: !<reference> 0b854fe3-5a1d-45a6-b759-e2ab3bff5346
+    Character1_LeftForeArm: !<reference> 58f91db3-b67f-45da-abf2-5453d4052fc4
+    Body_Mesh_With_Skeleton_A_Pose_2: !<reference> a125b206-22e9-45f4-9d56-aeac3f47e1e6
+    Character1_LeftLeg: !<reference> bf0e25a7-2062-4415-9c1c-292eaacc5aad
+    Character1_RightHandIndex4: !<reference> 1ecbdaaf-f2ac-49d7-9334-71cf277fa0c3
+    Character1_RightHandPinky3: !<reference> d6b60004-9ec1-48e2-9842-63db5b380448
+    Character1_LeftFoot: !<reference> 1b5be5fb-09ac-4145-b29c-76e7d3ac07f8
+    Character1_RightHandRing4_end: !<reference> 88ea4220-75f7-40ff-a341-c775c78bdee0
+    Character1_LeftHandThumb3: !<reference> 44ca1664-4b0b-4c76-97a1-d85f481539fb
+    Character1_RightToeBase: !<reference> ba085185-4fd6-4710-8893-b97e3e55c2fb
+    Character1_LeftHandMiddle4_end_end: !<reference> abacf4c5-0b86-447b-90be-9527e1a91c12
+    Character1_LeftToe_End: !<reference> 4916b902-5bc8-4810-be38-861d02df2fcd
+    Character1_RightToe_End: !<reference> dc4c52f9-eb21-4d0e-bf9c-0cd66b8caefe
+    Character1_LeftToe_End_end_end: !<reference> 9bc16241-e741-4727-9bcb-60bae1c3f31a
+    Character1_RightHandRing2: !<reference> 1b8671a1-6e1e-4cad-b45c-758f8b6d5100
+    Character1_RightLeg: !<reference> 01053806-4db4-4f36-952d-01c9ac3849a5
+    Character1_RightHandRing4: !<reference> 32ba281a-5d59-4cf7-b7cb-6245fe4a2f35
+    Character1_Spine2: !<reference> ecff6841-5301-4902-bde6-50c35de99158
+    Character1_LeftHandThumb1: !<reference> 08171b4a-20b7-4ad2-b9ed-627b5b436c2f
+    Character1_Spine: !<reference> e14abb53-c526-460a-9578-65d9d134471f
+    Character1_RightHandRing4_end_end: !<reference> 8cecb80c-1e3e-449c-afd3-96e33ab9742b
+    Character1_RightHandMiddle4_end: !<reference> 9092b008-36e7-4000-b85a-c780fef5249f
+    Character1_RightHandMiddle4_end_end: !<reference> 4ebcf2d2-0735-4357-84b4-47fd4cd966aa
+    Character1_RightHandRing1: !<reference> f105e179-99c6-48b1-824c-05c4d7fc6256
+    Character1_LeftHandThumb4: !<reference> d87684d1-e458-43bd-b21e-c345e29be6c1
+    Character1_RightHandRing3: !<reference> f39244ba-96ae-4d04-b3f9-a61561b40cab
+    Character1_RightHandPinky4_end_end: !<reference> ea1904d9-5128-4a65-90ce-99dafa854dbb
+    Body_Mesh_With_Skeleton_A_Pose: !<reference> 0cd61d96-c40e-48fb-956d-29318894c85c
+    Character1_RightHandPinky2: !<reference> 9fef97bd-bc44-4144-aeeb-e4e75a394347
+    Character1_RightHandPinky4: !<reference> 59d0b182-c39c-4907-8f22-03a6efdea662
+    Character1_RightHandPinky4_end: !<reference> f5ea2b2e-63e2-489a-a2e4-e0206a60c7ff
+    Character1_RightHandPinky1: !<reference> e1cb20bc-8f50-4728-a64a-36a360e72af5
+    Character1_LeftShoulder: !<reference> e8dfa2a2-2a70-4b7e-92f4-c60861b37867
+    Character1_Neck: !<reference> d944a637-3922-4eb6-b65f-9ceb042188f1
+    Character1_LeftHandIndex1: !<reference> 722c765e-f4b3-4556-80e8-27ecaf45c440
+    Character1_RightHandMiddle3: !<reference> b0d0b3ff-7705-4d00-b88c-2b031c148049
+    Character1_Hips: !<reference> 21a40c23-2b2c-4f5c-b496-715d10976f28
+    Character1_LeftHandMiddle3: !<reference> f054a1a3-4e9f-4c8b-a43c-fba154f7ab88
+    Character1_HeadTop_End_end_end: !<reference> ba507575-a51b-431d-9ddf-2ac01be9c889
+    Character1_HeadTop_End: !<reference> bb727a7c-5df0-4875-b7a2-d4fdb0ca20ce
+    Character1_LeftHandThumb4_end_end: !<reference> 41ed5921-43bc-4022-b55e-ae8e37f309a6
+    Character1_LeftArm: !<reference> dd384e53-7d33-4d47-a694-9cd79f1cc518
+    Character1_Spine1: !<reference> 80c102e3-8f5f-4d47-8d67-66a7c44183de
+    Character1_LeftHandThumb2: !<reference> 92993447-b8e9-4ad4-95b3-ffcb2ce10e09
+    Character1_Head: !<reference> 61e5c9ff-7628-4982-9dc9-1862abef9f75
+    Character1_LeftHandThumb4_end: !<reference> d11e4432-5cd8-428f-a866-bbea3ecd4b47
+    Character1_LeftHandMiddle2: !<reference> d93b5b8a-f713-4ca0-9e79-2a9544392df2
+    Character1_LeftHandRing1: !<reference> e23d5378-4300-4316-8e25-11f67f2ddb00
+    Character1_LeftHandIndex3: !<reference> 57c4fc01-4d4a-4978-be50-0c8d57f9b61f
+    Character1_RightHandMiddle1: !<reference> 0c67ba0e-4790-4006-85df-7757c025300d
+    Character1_LeftHandPinky1: !<reference> cf0c81bf-7ad5-4b4e-8833-b6999f26eb79
+    Character1_LeftHandMiddle4_end: !<reference> 453ddf59-6075-49d5-b334-8ff7e03fd291
+    Character1_LeftHandIndex4: !<reference> 1cce661b-c394-4b20-8bfd-a4714b70c5f3
+    Character1_LeftHandIndex4_end: !<reference> a4b160f3-74dd-4780-9f24-cf50f50578d9
+    Character1_LeftHandIndex2: !<reference> f1405de3-7cf5-4ce8-837d-3d64ceb87397
+    Character1_LeftHandMiddle4: !<reference> e236c7d3-2a00-420f-a75a-95c476aaac2d
+    Character1_LeftHandRing2: !<reference> df093d9f-3249-4e3f-b5dd-1eccfb24edee
+    Character1_LeftHandIndex4_end_end: !<reference> 59a1c3c6-ab56-482a-a71a-8fe2faba4486
+    Character1_LeftHandRing3: !<reference> b180dc41-913a-446a-bbf8-97fd37c1ba1d
+    Character1_LeftHandRing4: !<reference> ac043064-47df-4676-bd46-8dbbf6153af8
+    Character1_LeftHandRing4_end: !<reference> 73609b0f-96a6-4856-8d7e-b158587441e8
+    Character1_RightHandIndex3: !<reference> 4af85591-5c40-4771-a3d0-2d2e914ecc13
+    Character1_LeftHandRing4_end_end: !<reference> a69e6293-d950-4c92-aadb-0d57339e8786
+    Character1_RightHandIndex4_end_end: !<reference> 54974201-13f9-4b45-9ee8-b421dce8b801
+    Character1_RightHand: !<reference> 2eb3fdae-f91f-4605-9716-b2b685a6421c
+    Character1_RightForeArm: !<reference> 453e03a9-7f52-4f0c-a3a2-bc9544d080c1
+    Character1_RightHandThumb4_end: !<reference> cbdf3986-93e3-4107-a994-2410822327ab
+    Character1_RightHandIndex1: !<reference> 5b47748f-e0ce-44d6-b155-d17bb87b0c2c
+    Character1_LeftHandPinky4_end_end: !<reference> 833fe13c-4a11-42ec-b227-bc045ec9d589
+    Character1_RightArm: !<reference> dca0fb3d-e057-4c31-a8f3-a2ddb8a05565
+    Character1_RightHandIndex4_end: !<reference> c511bccc-79b8-4680-a84d-492f0491e75b
+    Character1_LeftHandPinky4: !<reference> b27ecd58-f568-4df0-a12e-297b8eb3c249
+    Character1_LeftHandPinky2: !<reference> 4db4771a-bc6d-4ae9-823d-48b7c7908904
+    Character1_RightShoulder: !<reference> 83d80dd3-fedf-4528-8bef-b0966c898daf
+    Character1_RightHandThumb1: !<reference> 5a1757df-0141-4405-9848-5593f16aceb3
+    Character1_LeftHandPinky4_end: !<reference> a1ab603b-e24f-43fb-bb6a-203946cc6cc6
+    Character1_RightHandThumb2: !<reference> 71a0768f-f7a1-4d3e-a9ee-30325b27c85d
+    Character1_LeftHandPinky3: !<reference> fe235946-193e-401d-8488-b666c3767c94
+    Character1_RightHandThumb3: !<reference> 6b89ced4-dde3-4aed-8b5e-800061b8830c
+    Character1_RightHandThumb4: !<reference> 62159d2f-16de-47af-9b86-e58511b9cdde
+    Character1_RightHandThumb4_end_end: !<reference> 96b820a1-6957-412f-bdad-3f452ffb1e2f
+    Character1_RightHandIndex2: !<reference> e0c5e1ff-6a16-4db3-a5fa-b65b36d65fa1
+    Character1_RightHandMiddle2: !<reference> f4b1fc62-62ea-4afb-b09d-8178425640a5
+- !<SceneObject/f5ea2b2e-63e2-489a-a2e4-e0206a60c7ff>
+  PrefabRemaps:
+    []
+  Name: Character1_RightHandPinky4_end
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000002, y: 2.218188, z: 0.000012}
+    rotation: {x: -0.000352, y: 0.000012, z: -0.000042}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ea1904d9-5128-4a65-90ce-99dafa854dbb
+  Components:
+    []
+- !<SceneObject/fe235946-193e-401d-8488-b666c3767c94>
+  PrefabRemaps:
+    []
+  Name: Character1_LeftHandPinky3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000795, y: 2.665826, z: 0.000054}
+    rotation: {x: 7.790336, y: -0.007963, z: -1.072912}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b27ecd58-f568-4df0-a12e-297b8eb3c249
+  Components:
+    []

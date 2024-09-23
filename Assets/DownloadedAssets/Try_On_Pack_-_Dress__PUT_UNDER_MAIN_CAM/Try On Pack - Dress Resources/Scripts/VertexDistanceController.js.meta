@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/b1dad142-372d-44ee-a980-f961b64c8098>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8a34ba81-bfad-4a17-b2c3-cce3f2c1bf65
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8a34ba81-bfad-4a17-b2c3-cce3f2c1bf65
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> a59f667b-ddbf-4f7f-993b-03ad1e33a021
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/2e1c67e3-10c3-4095-a510-94e70d0bd6c2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a59f667b-ddbf-4f7f-993b-03ad1e33a021>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bindDistance: false
+    clothVisual: false
+    debugMaterial: false
+    debugMesh: false
+    isDebug: false
+    overrideVertexSettings: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - clothVisual: !<reference.ClothVisual> 00000000-0000-0000-0000-000000000000
+      overrideVertexSettings: false
+      bindDistance: 0.700000
+      isDebug: false
+      debugMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      debugMesh: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

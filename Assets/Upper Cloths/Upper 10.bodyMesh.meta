@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/a2dc9561-1f8b-4aa6-a46f-223daf0242d9>
+  ImportedAssetIds:
+    BodyMesh: !<reference> 5bad7193-52f4-4110-8d6e-f4198700f0a2
+  ImporterName: BodyMeshImporter
+  PrimaryAsset: !<reference> 5bad7193-52f4-4110-8d6e-f4198700f0a2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fdd25eb8-f75f-42d6-bd4b-380cb9e2dc6d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

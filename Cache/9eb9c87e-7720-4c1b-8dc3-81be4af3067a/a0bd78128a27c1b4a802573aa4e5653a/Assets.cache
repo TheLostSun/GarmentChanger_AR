@@ -1,0 +1,12 @@
+- !<AssetCache/a0bd7812-8a27-c1b4-a802-573aa4e5653a>
+  AssetFiles:
+    82f23343-8fb7-4180-a874-6d26db0008f8: 9eb9c87e-7720-4c1b-8dc3-81be4af3067a/a0bd78128a27c1b4a802573aa4e5653a/Data/Dress LP.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/82f23343-8fb7-4180-a874-6d26db0008f8>
+      PackagePath: ""
+  SourceHash: a0bd78128a27c1b4a802573aa4e5653a
+  FileHash: fb2072008b2524216d7253741df008de
+  NativePackageItems:
+    []

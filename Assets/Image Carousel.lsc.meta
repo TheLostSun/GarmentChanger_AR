@@ -1,0 +1,27 @@
+- !<AssetImportMetadata/13e88dc2-b35f-40f3-8a4e-40d294504d36>
+  ImportedAssetIds:
+    .hidden/CarouselBackground: !<reference> 48b0a965-788b-433b-836e-9602bc2b9fb9
+    .hidden/CarouselItem: !<reference> 1fcc0a72-4a2f-40e1-868d-9846f7da2325
+    .hidden/CarouselRing: !<reference> 424952a4-0cfe-426c-8bf5-b22229bbda2f
+    CarouselBackground: !<reference> 808f3dac-34fb-4694-ad9d-bde2f44c0fb4
+    CarouselBackground|CarouselBackground|GraphPassInfo: !<reference> 8d47db4a-89db-4a83-9499-f34411377fab
+    CarouselItem: !<reference> b4c8894f-f19b-4cbb-8f37-3868779ccc95
+    CarouselItem|CarouselItem|GraphPassInfo: !<reference> bda047e5-6170-4e6e-8e35-b53e50b7a1fc
+    CarouselRing: !<reference> 1a1d1043-3ab4-4bb8-9167-8a0a43ae9c90
+    CarouselRing|CarouselRing|GraphPassInfo: !<reference> e69233c8-3617-4e02-88d0-597959a64385
+    DestructionHelper_100: !<reference> 4e682838-5bd9-421a-983a-3a319021ed57
+    EventModule_101: !<reference> 43ec6e29-43fd-401d-9370-7109e94561e1
+    Image Carousel/Image Carousel: !<reference> 123e1961-4a77-4c99-9b8a-4581ee8f7bd3
+    lock: !<reference> 5ee13b23-6446-41e3-8f98-b54be933ecdf
+    ring: !<reference> f287a942-a77d-4924-ad51-62a9f8d4f155
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> 123e1961-4a77-4c99-9b8a-4581ee8f7bd3
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/fecf0b7c-b792-4ce2-ae66-3db49e4deaee>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

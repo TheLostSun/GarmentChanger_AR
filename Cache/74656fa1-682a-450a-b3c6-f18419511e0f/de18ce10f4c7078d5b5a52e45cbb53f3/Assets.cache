@@ -1,0 +1,12 @@
+- !<AssetCache/de18ce10-f4c7-078d-5b5a-52e45cbb53f3>
+  AssetFiles:
+    45b3a6ec-4f28-45ed-9ba2-3f5eb61c7a83: 74656fa1-682a-450a-b3c6-f18419511e0f/de18ce10f4c7078d5b5a52e45cbb53f3/Data/guide_hand_r.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/45b3a6ec-4f28-45ed-9ba2-3f5eb61c7a83>
+      PackagePath: ""
+  SourceHash: de18ce10f4c7078d5b5a52e45cbb53f3
+  FileHash: 3461fe7113fe1e0cda60c7e4d397392f
+  NativePackageItems:
+    []

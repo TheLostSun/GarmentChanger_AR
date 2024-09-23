@@ -1,0 +1,15 @@
+- !<AssetCache/201d8ed2-c89d-6c31-32ed-50ef9deb2a7b>
+  AssetFiles:
+    bb1aa1c9-b703-4d9b-a3dc-21cc763dbef7: c39adecd-68b9-4945-ba01-4ae08d72a299/201d8ed2c89d6c3132ed50ef9deb2a7b/Data/dress_normal.png
+  AssetCurrentFiles:
+    bb1aa1c9-b703-4d9b-a3dc-21cc763dbef7: c39adecd-68b9-4945-ba01-4ae08d72a299/201d8ed2c89d6c3132ed50ef9deb2a7b/Data/Performance/Medium/dress_normal.pvr
+  Assets:
+    - !<FileTexture/bb1aa1c9-b703-4d9b-a3dc-21cc763dbef7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 201d8ed2c89d6c3132ed50ef9deb2a7b
+  FileHash: ce21e53cad876e298871b06c2b3c8878
+  NativePackageItems:
+    []

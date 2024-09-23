@@ -1,0 +1,175 @@
+- !<AssetImportMetadata/4e3a3f67-e1a7-42a5-8d4d-61b56c0724aa>
+  ImportedAssetIds:
+    .hidden/DefaultMtl: !<reference> 443f8949-483a-4dd5-bd2c-1fa1301167e7
+    .hidden/white: !<reference> 7ce0d0d5-c351-4688-85ce-0fb722ed5642
+    1e5ef152b40b5d80: !<reference> 58583b48-b9be-411f-a22b-e9d45a58e9a8
+    2028ca51e4a54211: !<reference> 15148882-cfdd-40e5-946d-2f40c9e35303
+    4598edd15f0cdada: !<reference> 591fabe3-18cb-49a5-89e3-d6c3beff05e2
+    6d0bf3ea4fa30e84: !<reference> a6c13931-d4fc-427b-b188-a5db83f73cf2
+    7a0dd5cd69df73fa: !<reference> be83cba2-92b3-4fe4-9c54-4d688c32c1e8
+    959eec2a1491faf1: !<reference> b06ae42e-18ad-4b9b-8312-0acdd624a71f
+    BaseLayer: !<reference> 8e69738d-0d71-4623-897b-76067b0b6fd0
+    Materials/DefaultMtl: !<reference> bb9f9f26-4121-4431-9399-a99304c2c6c7
+    Materials/DefaultMtl|DefaultMtl|GraphPassInfo: !<reference> 9c228617-b457-4382-9f7c-d50bfc5fbd9c
+    Meshes/shoe_mesh_l: !<reference> 2ad880e8-681f-4597-8561-defc228a77af
+    Meshes/shoe_mesh_r: !<reference> 8cd001a4-141f-410f-aa0b-8e8f9ed4b848
+    Scene: !<reference> 2f7f9435-ccc0-4b17-91d0-405c1482fbe8
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 2f7f9435-ccc0-4b17-91d0-405c1482fbe8
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> cdd237ea-44b0-439c-acab-8a7e1c04fe24
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings/ec4bf73f-bc89-4b7a-ad11-3c9b8093521b>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategory
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/649dc3ed-1e8c-4dc5-a02a-832a93fc5aff>
+    Presets:
+      None Compression: !<SingleCompressionSettings/dfce27f2-c591-460d-bd28-ec160e8e8e14>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/a97bd5e7-b076-4a3a-8810-64d79dc88b24>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/526d3a0b-e7e9-484a-959c-bc5f3476373b>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<AnimationPlayer/03204373-8cfe-476c-8be5-57c8800c6f63>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 8e69738d-0d71-4623-897b-76067b0b6fd0
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/0a4061fd-0181-4945-a6ad-5daaa58da45d>
+  PrefabRemaps:
+    []
+  Name: shoe_mesh_r
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f5a682e2-6167-43aa-91ec-41425880e3a8
+- !<RenderMeshVisual/42b928a9-f3ce-4173-adb5-60429b06e0e4>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bb9f9f26-4121-4431-9399-a99304c2c6c7
+  Mesh: !<reference> 2ad880e8-681f-4597-8561-defc228a77af
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6486c3b2-101c-4984-be65-3f0a741bc770>
+  PrefabRemaps:
+    []
+  Name: shoe_mesh_l
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 42b928a9-f3ce-4173-adb5-60429b06e0e4
+- !<ObjectPrefab/ab137f42-016a-4e33-b4a7-31cdad533b86>
+  PackagePath: ""
+  objects:
+    - !<own> f42573ec-91a6-4352-9713-3413ad7227eb
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/cdd237ea-44b0-439c-acab-8a7e1c04fe24>
+  SourceRemaps:
+    - 15148882-cfdd-40e5-946d-2f40c9e35303: 03204373-8cfe-476c-8be5-57c8800c6f63
+    - 58583b48-b9be-411f-a22b-e9d45a58e9a8: 42b928a9-f3ce-4173-adb5-60429b06e0e4
+    - 591fabe3-18cb-49a5-89e3-d6c3beff05e2: f5a682e2-6167-43aa-91ec-41425880e3a8
+    - a6c13931-d4fc-427b-b188-a5db83f73cf2: 0a4061fd-0181-4945-a6ad-5daaa58da45d
+    - b06ae42e-18ad-4b9b-8312-0acdd624a71f: 6486c3b2-101c-4984-be65-3f0a741bc770
+    - be83cba2-92b3-4fe4-9c54-4d688c32c1e8: f42573ec-91a6-4352-9713-3413ad7227eb
+  SourceState: !<own> ab137f42-016a-4e33-b4a7-31cdad533b86
+- !<SceneObject/f42573ec-91a6-4352-9713-3413ad7227eb>
+  PrefabRemaps:
+    []
+  Name: sneakers
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6486c3b2-101c-4984-be65-3f0a741bc770
+    - !<own> 0a4061fd-0181-4945-a6ad-5daaa58da45d
+  Components:
+    - !<own> 03204373-8cfe-476c-8be5-57c8800c6f63
+- !<RenderMeshVisual/f5a682e2-6167-43aa-91ec-41425880e3a8>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bb9f9f26-4121-4431-9399-a99304c2c6c7
+  Mesh: !<reference> 8cd001a4-141f-410f-aa0b-8e8f9ed4b848
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,12 @@
+- !<AssetCache/098c829c-f981-8461-de87-042e406cc85c>
+  AssetFiles:
+    2defd176-ebb3-4290-b1c8-afb5a28e4966: e4dc65ee-f4a2-49f0-8ec7-caf0f8825bcf/098c829cf9818461de87042e406cc85c/Data/guide_spine1.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/2defd176-ebb3-4290-b1c8-afb5a28e4966>
+      PackagePath: ""
+  SourceHash: 098c829cf9818461de87042e406cc85c
+  FileHash: 308b74e7a64c3b32d28e6e5a385ddc95
+  NativePackageItems:
+    []

@@ -1,0 +1,12 @@
+- !<AssetCache/fabfae51-1c3d-2c29-1a80-46c1dc069808>
+  AssetFiles:
+    4adcb131-4e7b-42ce-b137-69c1761b3171: 3070edbb-6ff0-4c6a-b8c9-7dd97dd19523/fabfae511c3d2c291a8046c1dc069808/Data/guide_foot_L.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/4adcb131-4e7b-42ce-b137-69c1761b3171>
+      PackagePath: ""
+  SourceHash: fabfae511c3d2c291a8046c1dc069808
+  FileHash: 8cce095e3678bbf26c6bd49e322ca449
+  NativePackageItems:
+    []

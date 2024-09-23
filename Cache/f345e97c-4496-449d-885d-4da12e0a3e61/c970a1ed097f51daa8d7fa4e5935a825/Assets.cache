@@ -1,0 +1,12 @@
+- !<AssetCache/c970a1ed-097f-51da-a8d7-fa4e5935a825>
+  AssetFiles:
+    7fd24a01-a060-4996-ac2e-1fa7efdf7bc6: f345e97c-4496-449d-885d-4da12e0a3e61/c970a1ed097f51daa8d7fa4e5935a825/Data/guide_hips.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/7fd24a01-a060-4996-ac2e-1fa7efdf7bc6>
+      PackagePath: ""
+  SourceHash: c970a1ed097f51daa8d7fa4e5935a825
+  FileHash: 1c56e8edc47dfd4469df6a24500eb4e0
+  NativePackageItems:
+    []

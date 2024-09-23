@@ -1,0 +1,72 @@
+- !<AssetCache/49d63165-997d-f864-e000-bc9af3a72da3>
+  AssetFiles:
+    38647d91-17c9-44bf-aede-9f22b0c604aa: 7aff720d-8e11-4639-8658-0a0068c72ba9/49d63165997df864e000bc9af3a72da3/Data/Body Mesh Occluder.ss_graph
+  AssetCurrentFiles:
+    38647d91-17c9-44bf-aede-9f22b0c604aa: 7aff720d-8e11-4639-8658-0a0068c72ba9/49d63165997df864e000bc9af3a72da3/Data/Body Mesh Occluder.ss_graph
+  Assets:
+    - !<ShaderGraphPass/38647d91-17c9-44bf-aede-9f22b0c604aa>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/3f6968b2-cc45-4783-b283-035a02456052>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Camera Image
+            mType: Property
+            mName: cameraImage
+            mWidget: texture_group
+            mHint: "Property: cameraImage"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 7aff720d-8e11-4639-8658-0a0068c72ba9/49d63165997df864e000bc9af3a72da3/Data/Body Mesh Occluder.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 49d63165997df864e000bc9af3a72da3
+  FileHash: 281c06ab47c9c07d7b76ade5fe6bcd21
+  NativePackageItems:
+    []

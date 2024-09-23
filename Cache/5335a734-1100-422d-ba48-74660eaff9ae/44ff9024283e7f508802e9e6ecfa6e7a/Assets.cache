@@ -1,0 +1,12 @@
+- !<AssetCache/44ff9024-283e-7f50-8802-e9e6ecfa6e7a>
+  AssetFiles:
+    c58a92c3-ab78-42c1-900b-fb369f7740c6: 5335a734-1100-422d-ba48-74660eaff9ae/44ff9024283e7f508802e9e6ecfa6e7a/Data/guide_head.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/c58a92c3-ab78-42c1-900b-fb369f7740c6>
+      PackagePath: ""
+  SourceHash: 44ff9024283e7f508802e9e6ecfa6e7a
+  FileHash: 504d73ec3f76a847836eee87efb59b73
+  NativePackageItems:
+    []

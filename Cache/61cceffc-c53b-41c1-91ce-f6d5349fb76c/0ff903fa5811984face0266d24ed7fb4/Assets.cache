@@ -1,0 +1,15 @@
+- !<AssetCache/0ff903fa-5811-984f-ace0-266d24ed7fb4>
+  AssetFiles:
+    bddcc8c2-c95a-42d0-9227-8a8f896996ed: 61cceffc-c53b-41c1-91ce-f6d5349fb76c/0ff903fa5811984face0266d24ed7fb4/Data/circle 20.png
+  AssetCurrentFiles:
+    bddcc8c2-c95a-42d0-9227-8a8f896996ed: 61cceffc-c53b-41c1-91ce-f6d5349fb76c/0ff903fa5811984face0266d24ed7fb4/Data/Performance/Medium/circle 20.pvr
+  Assets:
+    - !<FileTexture/bddcc8c2-c95a-42d0-9227-8a8f896996ed>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 106
+        Height: 107
+  SourceHash: 0ff903fa5811984face0266d24ed7fb4
+  FileHash: fcbda3e52eba2d78d0e4f0305218cd3a
+  NativePackageItems:
+    []

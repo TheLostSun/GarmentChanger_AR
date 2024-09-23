@@ -1,0 +1,12 @@
+- !<AssetCache/e4a8c6c0-dc06-4f92-da85-4b596f073246>
+  AssetFiles:
+    0c566456-cd50-4dff-9c41-f5ed79e7b154: 7c8b59b6-ae8a-47af-8c48-09ea5edc16fe/e4a8c6c0dc064f92da854b596f073246/Data/guide_legtop_r.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/0c566456-cd50-4dff-9c41-f5ed79e7b154>
+      PackagePath: ""
+  SourceHash: e4a8c6c0dc064f92da854b596f073246
+  FileHash: 83efb9fd21a9fb2ac41ea2c9aa99bbd9
+  NativePackageItems:
+    []

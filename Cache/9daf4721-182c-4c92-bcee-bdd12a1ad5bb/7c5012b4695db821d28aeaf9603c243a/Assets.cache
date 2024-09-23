@@ -1,0 +1,97 @@
+- !<AssetCache/7c5012b4-695d-b821-d28a-eaf9603c243a>
+  AssetFiles:
+    bec8479f-a0e9-4e21-9bc6-f8f5bf433143: 9daf4721-182c-4c92-bcee-bdd12a1ad5bb/7c5012b4695db821d28aeaf9603c243a/Data/Auto Paint Debug Material.ss_graph
+  AssetCurrentFiles:
+    bec8479f-a0e9-4e21-9bc6-f8f5bf433143: 9daf4721-182c-4c92-bcee-bdd12a1ad5bb/7c5012b4695db821d28aeaf9603c243a/Data/Auto Paint Debug Material.ss_graph
+  Assets:
+    - !<ShaderGraphPass/bec8479f-a0e9-4e21-9bc6-f8f5bf433143>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/9903ede5-42b7-4bf1-ac48-efde895d6fe2>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: distanceThreshold
+            mType: Property
+            mName: distanceThreshold
+            mWidget: slider
+            mHint: "Property: distanceThreshold"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ShowDistance
+            mType: Define
+            mName: Tweak_N44
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N44
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N44
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 9daf4721-182c-4c92-bcee-bdd12a1ad5bb/7c5012b4695db821d28aeaf9603c243a/Data/Auto Paint Debug Material.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 7c5012b4695db821d28aeaf9603c243a
+  FileHash: c13c5a881c3734116b5f51860990805c
+  NativePackageItems:
+    []

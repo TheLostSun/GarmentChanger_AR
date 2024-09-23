@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/8347f674-a6d6-4bb2-8841-9165c995ed9b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8e1235f2-42c9-48da-8850-80ecb3f641c6
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8e1235f2-42c9-48da-8850-80ecb3f641c6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> d8b5f55b-2585-41f4-9a26-5b8531a0b663
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fabf22e0-86e3-43d3-9763-43b9de38d710>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d8b5f55b-2585-41f4-9a26-5b8531a0b663>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    femaleButton: false
+    lower: false
+    lowerGameObject: false
+    maleButton: false
+    upper: false
+    upperGameObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - isMale: false
+      upperManager: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lowerManager: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      maleButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      femaleButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      upper: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      selectedCharacterText: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      upperGameObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lowerLowerGameObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lowerGameObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,38 @@
+- !<AssetImportMetadata/81d7de2b-8dc5-4efa-a33a-5109ad5588cf>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2021a88f-a360-4ee5-a852-5ce9acfd3fc2
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2021a88f-a360-4ee5-a852-5ce9acfd3fc2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6b21f387-7a5b-4e27-964d-b77294fdf36f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/73e811fe-0f36-4c66-a111-ee8b2e3fedb9>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6b21f387-7a5b-4e27-964d-b77294fdf36f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    buttonPress: false
+    cameraObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - screenCapture: !<reference.ScreenCapture> 00000000-0000-0000-0000-000000000000
+      button: !<reference.Button> 00000000-0000-0000-0000-000000000000
+      buttonPress: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

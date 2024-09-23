@@ -1,0 +1,51 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 40
+    values:
+      - 00000000-0000-0065-0000-000000000064
+      - 0005641c-028d-459a-0000-000000014b4d
+      - 101f52f1-2ff0-4405-95cf-b71eff054ce2
+      - 1ee47900-4358-48f0-8e83-1b67e0656d0b
+      - 21afa891-5ef7-42a0-bc38-a7fea9831da6
+      - 25387fbc-1884-4a7b-8a10-35c19e97105d
+      - 268157b7-e3d8-4ae3-814e-4d00823adcb5
+      - 2afb527f-67fb-4c7d-99b8-be23240305b5
+      - 2f55f648-e34c-4039-aebb-56362c4a5d11
+      - 3db0d838-9de4-4ff9-84ad-f09b6d508ef7
+      - 3f65d216-c288-4560-aff0-2bfc1e6a9548
+      - 431a54a9-d400-4491-9784-b6b8e2f82bd7
+      - 4d3c6456-7f6d-42f5-81e6-b8a20806c065
+      - 51b3787e-a1a0-4f0f-ba88-b6d53519a6c4
+      - 5e471b9b-1a04-411b-87aa-37f23d12346b
+      - 5f910fc5-dbc6-4809-a192-e9c037ba1af9
+      - 6482fe0f-fd07-414d-a418-622c09aaa588
+      - 67c6cc5e-56ae-49bd-8294-1956d025a05e
+      - 7ed17822-749d-4abc-afad-b3d75e5d2d26
+      - 7ee58719-cad8-4310-b89f-97fb3f93f6ff
+      - 7f6410e5-922f-480a-9b13-2f7c0abbe94f
+      - 87bb0f5d-a4c2-45ba-b911-7bfbfdc0e570
+      - 908f82e6-b14b-4608-9ecc-04e5de2907fd
+      - 9ec51a75-16df-4dac-bafa-b537fbb8515d
+      - a409e095-640b-4b34-93d5-8e17fbc64362
+      - a80b1808-7b91-4c94-a836-4e37d345f04c
+      - bb323608-c9da-4b29-9225-cd660e9d3cd6
+      - bdba9fde-2940-44a6-b254-276d7136ba47
+      - c4efdc3a-7778-4711-a8bf-278451b916f5
+      - c623d350-4969-4a91-b245-b42841f069e6
+      - c7b2f0eb-cf22-4a54-befe-9f31de4e7ada
+      - cf50eae2-0cac-4426-b240-51c5900fc0ab
+      - d0e0e5f2-b1f7-41d7-b2e6-718628b09c46
+      - d2410175-e0aa-4394-b49a-7e4fb5ff8310
+      - d56e0006-5eb5-4af7-8dfd-835078582d27
+      - de958e8b-d931-4147-8c77-18d31dd1ceb2
+      - e3627e7a-2de0-4930-8f9a-bcecfbc798b5
+      - e66c95e7-c2a1-4fb8-a9a2-13d74de7ba16
+      - ed4872d5-1f40-42eb-b398-dffd9992dbeb
+      - f09e4969-e725-4600-8511-5204a782ccfb
+  options: 4
+PinnedEntities:
+  type: "std::vector<class Es::Uuid,class std::allocator<class Es::Uuid> >"
+  value:
+    size: 0
+  options: 4

@@ -1,0 +1,12 @@
+- !<AssetCache/14774a45-f327-62a4-bd9c-d79cd2dcfd5d>
+  AssetFiles:
+    e6087295-d13c-457e-8bb4-477e9d6701d1: a2b73cdd-2cc0-47ef-ae26-67393cdd233d/14774a45f32762a4bd9cd79cd2dcfd5d/Data/Snap_ghost.mesh
+  AssetCurrentFiles:
+    e6087295-d13c-457e-8bb4-477e9d6701d1: a2b73cdd-2cc0-47ef-ae26-67393cdd233d/14774a45f32762a4bd9cd79cd2dcfd5d/Data/Snap_ghost.mesh
+  Assets:
+    - !<FileMesh/e6087295-d13c-457e-8bb4-477e9d6701d1>
+      PackagePath: ""
+  SourceHash: 14774a45f32762a4bd9cd79cd2dcfd5d
+  FileHash: f97e3d625a695def4d2f800679a9a747
+  NativePackageItems:
+    []

@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/2ae2a7ba-4d7a-4e79-879b-83d8985be960>
+  ImportedAssetIds:
+    BodyTracking3DAsset: !<reference> df6acc1a-ab24-45a0-9642-fe3f8e994be0
+  ImporterName: BodyTracking3DAssetImporter
+  PrimaryAsset: !<reference> df6acc1a-ab24-45a0-9642-fe3f8e994be0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d5e4bb0e-ae2e-4875-9d90-167bd9190256>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

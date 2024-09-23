@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/6a2dcc95-d38f-4ae5-b766-6a2fd2d28715>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 173d6358-5549-473c-a702-7540f6c09f11
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 173d6358-5549-473c-a702-7540f6c09f11
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> d7842ab6-77d5-4b3e-b6c5-88f62d26b704
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/4ac95686-89ef-4d7d-a778-c10168b2aced>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d7842ab6-77d5-4b3e-b6c5-88f62d26b704>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    apiFunctionNames: false
+    apiScript: false
+    enableApiCall: false
+    enableLogging: false
+    imageCount: false
+    imageSize: false
+    images: false
+    isHalfCircle: false
+    radius: false
+    rotationSpeed: false
+    snapSpeed: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - isHalfCircle: false
+      enableLogging: false
+      imageCount: 5
+      imageSize: !<float> 1.000000
+      radius: 70
+      rotationSpeed: 50
+      snapSpeed: !<float> 10.000000
+      images: !<reference.SceneObject[]>
+        []
+      enableApiCall: false
+      apiScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      apiFunctionNames: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}

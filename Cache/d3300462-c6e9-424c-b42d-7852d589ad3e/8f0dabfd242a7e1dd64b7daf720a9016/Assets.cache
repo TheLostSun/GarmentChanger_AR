@@ -1,0 +1,39 @@
+- !<AssetCache/8f0dabfd-242a-7e1d-d64b-7daf720a9016>
+  AssetFiles:
+    2e1666ec-d8d5-484b-ae77-1cdd40b3530f: d3300462-c6e9-424c-b42d-7852d589ad3e/8f0dabfd242a7e1dd64b7daf720a9016/Data/Collider Occluder.ss_graph
+  AssetCurrentFiles:
+    2e1666ec-d8d5-484b-ae77-1cdd40b3530f: d3300462-c6e9-424c-b42d-7852d589ad3e/8f0dabfd242a7e1dd64b7daf720a9016/Data/Collider Occluder.ss_graph
+  Assets:
+    - !<ShaderGraphPass/2e1666ec-d8d5-484b-ae77-1cdd40b3530f>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/9e734195-eeb1-48c8-8518-3defeeecd6e6>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: d3300462-c6e9-424c-b42d-7852d589ad3e/8f0dabfd242a7e1dd64b7daf720a9016/Data/Collider Occluder.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 8f0dabfd242a7e1dd64b7daf720a9016
+  FileHash: 38f1e4e3b191f7221776b7900642b5c6
+  NativePackageItems:
+    []

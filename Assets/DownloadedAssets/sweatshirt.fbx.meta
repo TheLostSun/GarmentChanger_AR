@@ -1,0 +1,134 @@
+- !<AssetImportMetadata/a0b317e7-d96f-4518-85f2-5422e04e528b>
+  ImportedAssetIds:
+    .hidden/DefaultMtl: !<reference> e29f1614-226b-48a2-bdf9-aeb1982f50fc
+    .hidden/white: !<reference> 7820ed5c-a12c-4ab6-b8b5-a5252ccf4352
+    2028ca51e4a54211: !<reference> f590dddb-4d59-4dab-a5eb-66a6f3a6ae14
+    7a0dd5cd69df73fa: !<reference> 82854996-558c-4b35-9c95-a0396eab92c2
+    90964130457227d4: !<reference> cc2998d4-0ff9-4cb3-91c1-a084938a7150
+    BaseLayer: !<reference> 17290454-ebb1-4745-8bc2-3979320ddbc9
+    Materials/DefaultMtl: !<reference> c2b9fc8a-36ac-4eb3-af47-5e4ad0793119
+    Materials/DefaultMtl|DefaultMtl|GraphPassInfo: !<reference> 7df9649b-a38a-4d71-bf78-c254ec986bf0
+    Meshes/sweatshirt_mesh: !<reference> 73740bf4-618c-4a6c-b4c0-cf51b30ddbee
+    Scene: !<reference> 43508f6b-d075-4f88-bc6b-8f17bf2c8503
+    c150fbfc0ad2ea84: !<reference> ab1cb2b3-8cc1-4734-aa2c-c0c5ded0dea4
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 43508f6b-d075-4f88-bc6b-8f17bf2c8503
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 249bace8-fb30-41e6-8e7e-cae30027c7b0
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings/b3892747-efbf-488c-b076-35fc4d59b43a>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategory
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/40448f55-8680-4226-a840-4dc0bb05c7da>
+    Presets:
+      None Compression: !<SingleCompressionSettings/e329e0d6-27be-49c5-93bb-31c6d6e3407f>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/62fef7b5-3415-4e39-b951-68fb6ec085ba>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/d86a751e-1001-4f5f-8cf8-a24a5100217f>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/249bace8-fb30-41e6-8e7e-cae30027c7b0>
+  SourceRemaps:
+    - 82854996-558c-4b35-9c95-a0396eab92c2: 485fb943-4d14-48be-99ee-bf02c3a45ea5
+    - ab1cb2b3-8cc1-4734-aa2c-c0c5ded0dea4: ad7103c1-39ee-41e0-8893-12787eeed09b
+    - cc2998d4-0ff9-4cb3-91c1-a084938a7150: 2c49e30a-517c-4385-b00d-faaaa857b9cc
+    - f590dddb-4d59-4dab-a5eb-66a6f3a6ae14: cd437f14-ac3a-481d-a9ba-3b0e658e6183
+  SourceState: !<own> 85e5b331-dc5b-491d-a013-a09bb4f47546
+- !<SceneObject/2c49e30a-517c-4385-b00d-faaaa857b9cc>
+  PrefabRemaps:
+    []
+  Name: sweatshirt_mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ad7103c1-39ee-41e0-8893-12787eeed09b
+- !<SceneObject/485fb943-4d14-48be-99ee-bf02c3a45ea5>
+  PrefabRemaps:
+    []
+  Name: sweatshirt
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2c49e30a-517c-4385-b00d-faaaa857b9cc
+  Components:
+    - !<own> cd437f14-ac3a-481d-a9ba-3b0e658e6183
+- !<ObjectPrefab/85e5b331-dc5b-491d-a013-a09bb4f47546>
+  PackagePath: ""
+  objects:
+    - !<own> 485fb943-4d14-48be-99ee-bf02c3a45ea5
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/ad7103c1-39ee-41e0-8893-12787eeed09b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c2b9fc8a-36ac-4eb3-af47-5e4ad0793119
+  Mesh: !<reference> 73740bf4-618c-4a6c-b4c0-cf51b30ddbee
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AnimationPlayer/cd437f14-ac3a-481d-a9ba-3b0e658e6183>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 17290454-ebb1-4745-8bc2-3979320ddbc9
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop

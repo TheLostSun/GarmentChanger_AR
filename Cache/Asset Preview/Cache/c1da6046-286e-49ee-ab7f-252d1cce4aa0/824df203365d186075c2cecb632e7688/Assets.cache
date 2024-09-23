@@ -1,0 +1,12 @@
+- !<AssetCache/824df203-365d-1860-75c2-cecb632e7688>
+  AssetFiles:
+    ffc35819-1c88-4233-b6fa-84fe35185f72: c1da6046-286e-49ee-ab7f-252d1cce4aa0/824df203365d186075c2cecb632e7688/Data/Box.mesh
+  AssetCurrentFiles:
+    ffc35819-1c88-4233-b6fa-84fe35185f72: c1da6046-286e-49ee-ab7f-252d1cce4aa0/824df203365d186075c2cecb632e7688/Data/Box.mesh
+  Assets:
+    - !<FileMesh/ffc35819-1c88-4233-b6fa-84fe35185f72>
+      PackagePath: ""
+  SourceHash: 824df203365d186075c2cecb632e7688
+  FileHash: 15029ed3b0de51096783f94ebdf80156
+  NativePackageItems:
+    []

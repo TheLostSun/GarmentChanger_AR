@@ -1,0 +1,57 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "distanceThreshold",
+                	"label":       "distanceThreshold",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "ShowDistance",
+                	"bindingName": "Tweak_N44",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        "Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color."
+                }
+                ,                {
+                	"_bindingName": "Tweak_N44",
+                	"widget": "group_end"
+                }
+                ,
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

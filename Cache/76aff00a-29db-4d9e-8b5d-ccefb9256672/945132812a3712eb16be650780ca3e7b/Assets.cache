@@ -1,0 +1,106 @@
+- !<AssetCache/94513281-2a37-12eb-16be-650780ca3e7b>
+  AssetFiles:
+    121f2b94-e076-45d2-aee4-8bf66fc9f743: 76aff00a-29db-4d9e-8b5d-ccefb9256672/945132812a3712eb16be650780ca3e7b/Data/simple_pbr.ss_graph
+  AssetCurrentFiles:
+    121f2b94-e076-45d2-aee4-8bf66fc9f743: 76aff00a-29db-4d9e-8b5d-ccefb9256672/945132812a3712eb16be650780ca3e7b/Data/simple_pbr.ss_graph
+  Assets:
+    - !<ShaderGraphPass/121f2b94-e076-45d2-aee4-8bf66fc9f743>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/3d1e1bcc-d616-4f95-9ed0-7d3e6bcdc4e1>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: "Property: metallic"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: "Property: roughness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 76aff00a-29db-4d9e-8b5d-ccefb9256672/945132812a3712eb16be650780ca3e7b/Data/simple_pbr.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 945132812a3712eb16be650780ca3e7b
+  FileHash: d0c6d14ab7262b2e2f70ffdd3f711962
+  NativePackageItems:
+    []

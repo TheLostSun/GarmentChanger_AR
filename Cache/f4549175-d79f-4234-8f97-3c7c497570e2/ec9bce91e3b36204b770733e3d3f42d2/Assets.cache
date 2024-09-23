@@ -1,0 +1,167 @@
+- !<AssetCache/ec9bce91-e3b3-6204-b770-733e3d3f42d2>
+  AssetFiles:
+    39b8d49b-33e5-4cb7-96fc-412d91554777: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Meshes/Mesh.mesh
+    af7d9e76-c77b-4107-98e0-42afbc56f5c4: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Textures/SKM Set 6 Jeans LP_Set 5 Pants_Normal.1001.png
+    7277b586-bdc5-4dbe-8d23-cd0ac78b6f87: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Textures/SKM Set 6 Jeans LP_Set 5 Pants_BaseColor.1001.png
+    bb2a157e-06fb-4adb-9426-cf5d14ac75ee: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Textures/SKM Set 6 Jeans LP_Set 5 Pants_OcclusionRoughnessMetallic.1001.png
+    e6e0ae13-c945-4c39-acc3-7a3b92b5d234: "f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/.hidden/b:SKM_Set_5_JeansSG1.001.ss_graph"
+  AssetCurrentFiles:
+    af7d9e76-c77b-4107-98e0-42afbc56f5c4: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Textures/Performance/Medium/SKM Set 6 Jeans LP_Set 5 Pants_Normal.1001.pvr
+    7277b586-bdc5-4dbe-8d23-cd0ac78b6f87: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Textures/Performance/Medium/SKM Set 6 Jeans LP_Set 5 Pants_BaseColor.1001.pvr
+    bb2a157e-06fb-4adb-9426-cf5d14ac75ee: f4549175-d79f-4234-8f97-3c7c497570e2/ec9bce91e3b36204b770733e3d3f42d2/Data/Textures/Performance/Medium/SKM Set 6 Jeans LP_Set 5 Pants_OcclusionRoughnessMetallic.1001.pvr
+  Assets:
+    - !<ObjectPrefab/40c60d7c-e065-4fe6-a668-0df9480c7a2f>
+      PackagePath: ""
+      objects:
+        - !<own> 8b8cc049-319e-4248-a319-3d0c99073e1f
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/39b8d49b-33e5-4cb7-96fc-412d91554777>
+      PackagePath: Meshes/Mesh
+    - !<FileTexture/af7d9e76-c77b-4107-98e0-42afbc56f5c4>
+      PackagePath: Textures/SKM Set 6 Jeans LP_Set 5 Pants_Normal.1001
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 2048
+    - !<FileTexture/7277b586-bdc5-4dbe-8d23-cd0ac78b6f87>
+      PackagePath: Textures/SKM Set 6 Jeans LP_Set 5 Pants_BaseColor.1001
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 2048
+    - !<FileTexture/bb2a157e-06fb-4adb-9426-cf5d14ac75ee>
+      PackagePath: Textures/SKM Set 6 Jeans LP_Set 5 Pants_OcclusionRoughnessMetallic.1001
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 2048
+    - !<Material/0699382f-be85-48e1-8f9a-ea181eda5a55>
+      PackagePath: "Materials/b:SKM_Set_5_JeansSG1.001"
+      PassesInfo:
+        - !<own> 0d75e9b2-2590-4474-88d4-390d1ad3360a
+    - !<ShaderGraphPass/e6e0ae13-c945-4c39-acc3-7a3b92b5d234>
+      PackagePath: ".hidden/b:SKM_Set_5_JeansSG1.001"
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<own> 00000000-0000-0000-0000-000000000000
+      ShaderPath: ""
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: ec9bce91e3b36204b770733e3d3f42d2
+  FileHash: ef185a9462b7dbab9d941e99c280941a
+  NativePackageItems:
+    []
+- !<PassInfo/0d75e9b2-2590-4474-88d4-390d1ad3360a>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_BASE_TEX
+    - ENABLE_GLTF_LIGHTING
+    - ENABLE_METALLIC_ROUGHNESS_TEX
+    - ENABLE_NORMALMAP
+    - baseColorTextureUV 0
+    - metallicRoughnessTextureUV 0
+    - normalTextureUV 0
+  BlendMode: Disabled
+  Properties:
+    {}
+  Pass: !<reference> e6e0ae13-c945-4c39-acc3-7a3b92b5d234
+- !<RenderMeshVisual/10b14feb-383c-4728-af3a-6d235ec43438>
+  PrefabRemaps:
+    []
+  Name: Mesh
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0699382f-be85-48e1-8f9a-ea181eda5a55
+  Mesh: !<reference> 39b8d49b-33e5-4cb7-96fc-412d91554777
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8228f3da-371a-4802-89ee-2563d970de27>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b6930d59-1d34-4973-a8fe-9d7cf871c7c9
+  Components:
+    - !<own> d2aa328a-76f2-4ef2-9753-94c609d36560
+- !<SceneObject/8b8cc049-319e-4248-a319-3d0c99073e1f>
+  PrefabRemaps:
+    []
+  Name: Set5_Bottom
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fa08d1bc-3bcb-461b-b791-f7234f61443e
+  Components:
+    []
+- !<SceneObject/b6930d59-1d34-4973-a8fe-9d7cf871c7c9>
+  PrefabRemaps:
+    []
+  Name: "b:SKM_Set_5_Jeans"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 10b14feb-383c-4728-af3a-6d235ec43438
+- !<AnimationPlayer/d2aa328a-76f2-4ef2-9753-94c609d36560>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/fa08d1bc-3bcb-461b-b791-f7234f61443e>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8228f3da-371a-4802-89ee-2563d970de27
+  Components:
+    []

@@ -1,0 +1,12 @@
+- !<AssetCache/89a51909-6422-6d85-4270-d966b0457a33>
+  AssetFiles:
+    f71db27f-5b34-42ff-a71f-50cbf7e7a9ae: 17667cb2-5f26-4fbf-b8c2-d446056a13ce/89a5190964226d854270d966b0457a33/Data/guide_arm_r.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/f71db27f-5b34-42ff-a71f-50cbf7e7a9ae>
+      PackagePath: ""
+  SourceHash: 89a5190964226d854270d966b0457a33
+  FileHash: 263016f4f6fc15ff04acb12bd21396ae
+  NativePackageItems:
+    []

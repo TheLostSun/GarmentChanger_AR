@@ -1,0 +1,12 @@
+- !<AssetCache/ed519dcd-dba0-b596-0900-0e660a9ca7c2>
+  AssetFiles:
+    0f259850-6934-4ddf-9ae4-90ce95bcf507: deeb5178-fd35-4501-864e-cf67271d280b/ed519dcddba0b59609000e660a9ca7c2/Data/guide_forearm_r.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/0f259850-6934-4ddf-9ae4-90ce95bcf507>
+      PackagePath: ""
+  SourceHash: ed519dcddba0b59609000e660a9ca7c2
+  FileHash: 6e5b52027c0faab74b563c693652d68f
+  NativePackageItems:
+    []

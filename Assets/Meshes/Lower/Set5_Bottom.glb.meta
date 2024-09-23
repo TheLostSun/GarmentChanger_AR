@@ -1,0 +1,154 @@
+- !<AssetImportMetadata/f4549175-d79f-4234-8f97-3c7c497570e2>
+  ImportedAssetIds:
+    ".hidden/b:SKM_Set_5_JeansSG1.001": !<reference> e6e0ae13-c945-4c39-acc3-7a3b92b5d234
+    1dbb21d8a8cff991: !<reference> 10b14feb-383c-4728-af3a-6d235ec43438
+    4e6c8797971782b8: !<reference> 8228f3da-371a-4802-89ee-2563d970de27
+    624f6792bd6e379e: !<reference> fa08d1bc-3bcb-461b-b791-f7234f61443e
+    7a0dd5cd69df73fa: !<reference> 8b8cc049-319e-4248-a319-3d0c99073e1f
+    "Materials/b:SKM_Set_5_JeansSG1.001": !<reference> 0699382f-be85-48e1-8f9a-ea181eda5a55
+    "Materials/b:SKM_Set_5_JeansSG1.001|b:SKM_Set_5_JeansSG1.001|GraphPassInfo": !<reference> 0d75e9b2-2590-4474-88d4-390d1ad3360a
+    Meshes/Mesh: !<reference> 39b8d49b-33e5-4cb7-96fc-412d91554777
+    Scene: !<reference> 40c60d7c-e065-4fe6-a668-0df9480c7a2f
+    Textures/SKM Set 6 Jeans LP_Set 5 Pants_BaseColor.1001: !<reference> 7277b586-bdc5-4dbe-8d23-cd0ac78b6f87
+    Textures/SKM Set 6 Jeans LP_Set 5 Pants_Normal.1001: !<reference> af7d9e76-c77b-4107-98e0-42afbc56f5c4
+    Textures/SKM Set 6 Jeans LP_Set 5 Pants_OcclusionRoughnessMetallic.1001: !<reference> bb2a157e-06fb-4adb-9426-cf5d14ac75ee
+    e140c4199169af55: !<reference> d2aa328a-76f2-4ef2-9753-94c609d36560
+    ff964bc3f8a73d48: !<reference> b6930d59-1d34-4973-a8fe-9d7cf871c7c9
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 40c60d7c-e065-4fe6-a668-0df9480c7a2f
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 32304d6a-5122-4e2d-a8c5-c82088d127d9
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings/f2789139-5950-4d02-8db8-11b7e9dd609f>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategory
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings/284fd11f-3889-4ed6-8e6f-b474c022329d>
+    Presets:
+      None Compression: !<SingleCompressionSettings/61105bbd-77b7-42f5-93a7-1e5885c12aa8>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/acca52a4-81e2-4856-8568-994a840f80df>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/2a41fce2-a53e-473d-b34e-a904b6ab16c9>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/013a1d59-639c-4134-90d2-85d3891746f3>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c0ad627c-b09e-4be9-a769-2cf0b76ac8f2
+  Components:
+    - !<own> 0258196b-c768-4ef1-ad45-5731b8993a1f
+- !<AnimationPlayer/0258196b-c768-4ef1-ad45-5731b8993a1f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefabAssetData/32304d6a-5122-4e2d-a8c5-c82088d127d9>
+  SourceRemaps:
+    - 10b14feb-383c-4728-af3a-6d235ec43438: 454e43d1-bbdc-4a0f-bec8-26cfc21a1735
+    - 8228f3da-371a-4802-89ee-2563d970de27: 013a1d59-639c-4134-90d2-85d3891746f3
+    - 8b8cc049-319e-4248-a319-3d0c99073e1f: a5875604-9c3e-4ed9-8d73-d7a3f942a015
+    - b6930d59-1d34-4973-a8fe-9d7cf871c7c9: c0ad627c-b09e-4be9-a769-2cf0b76ac8f2
+    - d2aa328a-76f2-4ef2-9753-94c609d36560: 0258196b-c768-4ef1-ad45-5731b8993a1f
+    - fa08d1bc-3bcb-461b-b791-f7234f61443e: 8363a847-c43f-448a-848d-31268dab1824
+  SourceState: !<own> 3da5ea33-7913-4299-b293-95a01b274d08
+- !<ObjectPrefab/3da5ea33-7913-4299-b293-95a01b274d08>
+  PackagePath: ""
+  objects:
+    - !<own> a5875604-9c3e-4ed9-8d73-d7a3f942a015
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/454e43d1-bbdc-4a0f-bec8-26cfc21a1735>
+  PrefabRemaps:
+    []
+  Name: Mesh
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0699382f-be85-48e1-8f9a-ea181eda5a55
+  Mesh: !<reference> 39b8d49b-33e5-4cb7-96fc-412d91554777
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8363a847-c43f-448a-848d-31268dab1824>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 013a1d59-639c-4134-90d2-85d3891746f3
+  Components:
+    []
+- !<SceneObject/a5875604-9c3e-4ed9-8d73-d7a3f942a015>
+  PrefabRemaps:
+    []
+  Name: Set5_Bottom
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8363a847-c43f-448a-848d-31268dab1824
+  Components:
+    []
+- !<SceneObject/c0ad627c-b09e-4be9-a769-2cf0b76ac8f2>
+  PrefabRemaps:
+    []
+  Name: "b:SKM_Set_5_Jeans"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 454e43d1-bbdc-4a0f-bec8-26cfc21a1735

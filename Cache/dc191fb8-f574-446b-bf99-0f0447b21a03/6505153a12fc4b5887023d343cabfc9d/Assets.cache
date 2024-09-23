@@ -1,0 +1,117 @@
+- !<AssetCache/6505153a-12fc-4b58-8702-3d343cabfc9d>
+  AssetFiles:
+    c7a774c8-5827-44bf-988d-c7eb8abd6f7d: dc191fb8-f574-446b-bf99-0f0447b21a03/6505153a12fc4b5887023d343cabfc9d/Data/Dress.ss_graph
+  AssetCurrentFiles:
+    c7a774c8-5827-44bf-988d-c7eb8abd6f7d: dc191fb8-f574-446b-bf99-0f0447b21a03/6505153a12fc4b5887023d343cabfc9d/Data/Dress.ss_graph
+  Assets:
+    - !<ShaderGraphPass/c7a774c8-5827-44bf-988d-c7eb8abd6f7d>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/c85864b7-b60d-49ff-955c-feae0c08f7c1>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: UV Scale
+            mType: Property
+            mName: uvScale
+            mWidget: slider
+            mHint: "Property: uvScale"
+            mMin: 1.000000
+            mMax: 10.000000
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: UV Angle
+            mType: Property
+            mName: uvAngle
+            mWidget: slider
+            mHint: "Property: uvAngle"
+            mMin: 0.000000
+            mMax: 360.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Normal Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: dc191fb8-f574-446b-bf99-0f0447b21a03/6505153a12fc4b5887023d343cabfc9d/Data/Dress.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 6505153a12fc4b5887023d343cabfc9d
+  FileHash: 0b0dbb28ff2f1092c1fda06e4a5655f5
+  NativePackageItems:
+    []
